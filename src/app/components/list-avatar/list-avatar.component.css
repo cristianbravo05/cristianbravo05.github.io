@@ -1,0 +1,98 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Create 2 columns and auto-place rows */
+  grid-template-rows: 1fr; /* Create 2 rows and auto-place rows columns*/
+  width: auto;
+  height: auto;
+}
+
+.imagecontainer{
+  display: flex;
+  align-content: center;
+  text-align: left;
+}
+
+.item1-t { grid-area: title;}
+.item2-i { grid-area: image;}
+.item3-t { grid-area: texto;}
+.item4-p { grid-area: price;}
+
+.item1 { grid-area: body; }
+.item2-1 { grid-area: image1; width: 0px;}
+.item2-2 { grid-area: image2; width: 0px;}
+.item2-3 { grid-area: image3; width: 0px;}
+.item2-4 { grid-area: image4; width: 0px;}
+.item2-5 { grid-area: image5; width: 0px;}
+.item3 { grid-area: header; }
+.item4 { grid-area: footer; }
+.item5 { grid-area: margen; }
+.item6 { grid-area: margenv2; }
+
+.item7-1{ grid-area: text1; }
+.item7-2{ grid-area: text2; }
+.item7-3{ grid-area: text3; }
+.item7-4{ grid-area: text4; }
+
+
+.grid-containerv {
+  display: grid;
+ /* grid-template-areas:
+  'image title'
+   'price texto';*/
+  grid-template-areas:
+  'image title'
+  'price texto';
+  gap: 0px;
+  background: white;
+  /*background-color: #616161;*/
+  /* background-color: #0b1d26;*/
+  padding: 0px;
+  top:400px;
+  }
+
+  /*@media only screen and (max-width: 800px) {
+  .grid-containerv {
+  display: grid;
+  margin-left: 0px;
+  grid-template-areas:
+    'image1 image1'
+    'image2 image2';
+  gap: 10px;
+  background: linear-gradient( #0b1d26,#616161);
+  /*background-color: #616161;*/
+  /* background-color: #0b1d26;*/
+ /* padding: 10px;
+  top:200px;
+
+    }
+  }*/
+
+  .grid-containerv3 {
+    display: grid;
+    grid-template-areas:
+    'image1 image2 image3 text1 image4';
+    gap: 0px;
+    background: white;
+    /*background-color: #616161;*/
+    /* background-color: #0b1d26;*/
+    padding: 0px;
+    top:400px;
+
+    }
+
+    @media only screen and (max-width: 800px) {
+    .grid-containerv3 {
+    display: grid;
+    margin-left: 0px;
+    grid-template-areas:
+      'image1 image1'
+      'image2 image2';
+    gap: 10px;
+    background: linear-gradient( #0b1d26,#616161);
+    /*background-color: #616161;*/
+    /* background-color: #0b1d26;*/
+    padding: 10px;
+    top:200px;
+
+      }
+    }

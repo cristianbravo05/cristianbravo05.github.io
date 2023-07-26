@@ -1,0 +1,132 @@
+<div class="container">
+  <div class="avatar">
+    <div *ngFor="let avatar of avatars" class="avatar-list">
+      <img src={{avatar.avatar}} alt="" class="avatar-img" width="50%" height="50%" data-bs-target="#staticBackdrop"
+        data-bs-toggle="modal" (click)="modalData(avatar)">
+      <button style="margin-left:100px;">Editar</button>
+      <i [routerLink]="['/edit-avatar', avatar._id]" class="fas fa-edit text-primary"></i>
+      <form (ngSubmit)="onSubmit(avatar._id)">
+        <button class="btn btn-warning">borrar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <app-modal [avatar]="avatarData"></app-modal>
+</div>
+
+<button style="margin-left:100px;" [routerLink]="['/add-avatar']">Crear Nuevo</button>
+
+
+<div class="container">
+  <div class="avatar">
+    <div class="grid">
+    <ng-container *ngFor="let avatar2 of arrayavatar" class="avatar-list">
+      <img src={{avatar2.avatar}} alt="" class="avatar-img" width="100%" height="100%" data-bs-target="#staticBackdrop"
+        data-bs-toggle="modal" (click)="modalData(avatar2)">
+      <button [routerLink]="['/edit-avatar', avatar2._id]" class="fas fa-edit text-primary">Editar</button>
+      <form (ngSubmit)="onSubmit(avatar2._id)">
+        <button class="btn btn-warning">borrar</button>
+      </form>
+    </ng-container>
+  </div>
+</div>
+</div>
+
+<!--<div class="container">-->
+  <div class="avatar">
+    <!--<div class="grid">-->
+
+
+      <!--| slice:page:page+5 | callback:findColor:color-->
+      <!--"let avatar2 of imageFilter | filterPeople:colors |  sort:'price':orden"-->
+        <div *ngIf="filtrar == 'hola'">
+
+        <ng-container *ngFor="let avatar2 of imageFilter | sort:typeord:orden | slice:page:page+5" class="avatar-list">
+          <div class="grid-containerv" style="width: 1000px;">
+
+          <div class="item2-i" style="width: 400px;height: auto;margin-left: 50px;margin-right: -100px;">
+          <img  src={{avatar2.url}} alt="" class="avatar-img" width="100%" height="auto" data-bs-target="#staticBackdrop"
+            data-bs-toggle="modal" (click)="modalData(avatar2)" >
+          <!--<button [routerLink]="['/edit-avatar', avatar2]" class="fas fa-edit text-primary">Editar</button>-->
+          </div>
+          <div class="item1-t" style="text-align: left;width: 600px;margin-left: 200px;height: 250px;">
+          <FONT face="American Typewriter" style=" font-weight: bold;">{{avatar2.color | uppercase }}</FONT>
+          <br>
+          <!--<FONT>{{avatar2.color | uppercase }}</FONT>-->
+          </div>
+          <div class="item4-p" style="margin-right: 130px;text-align: center;margin-left: 200px;">
+          <p>{{avatar2.price | currency:'USD'}}</p>
+          </div>
+          <div class="item3-t" style="margin-top: -180px;margin-left: 200px;">
+
+          <p>es es un texto de pruba para el objeto
+            <FONT style=" font-weight: bold;">{{avatar2.color | uppercase }}</FONT>
+            este sera remplazado por otro en un futuro
+            hay se pondra un texto referente a las caracteristicas del producto
+            y otros datos referentes al vendedor y donde esta ubicado</p>
+
+          <ng-container *ngFor="let avatar3 of avatar2.tag" class="avatar-list">
+            <FONT><a [routerLink]="['/edit-avatar', avatar3]" style="text-decoration:none;">{{avatar3}}&nbsp;&nbsp;</a></FONT>
+          </ng-container>
+          <!--<p><a id="dinero" href="https://www.google.com.co/">{{avatar2.tag}}</a></p>-->
+
+          </div>
+          <!--<form (ngSubmit)="onSubmit(avatar2)">-->
+            <!--<button class="btn btn-warning">borrar</button>-->
+          </div>
+          <div *ngIfElse="filtrar == 'adios'">
+          <p>hola</p>
+
+
+          <!--</form>-->
+
+      </div>
+    </ng-container>
+  </div>
+<!--</div>-->
+</div>
+
+
+
+<!--<button (click)="onClick()">Set Focus</button>
+
+<p id="dinero2">hola</p>-->
+<!--</div>-->
+
+<!--<div class="grid-containerv">
+
+  <div class="item1-t">
+    <p >hola</p>
+    </div>
+
+  <div class="item2-i" >
+  <img src="https://upload-os-bbs.hoyolab.com/upload/2023/06/19/148343700/3ebb662cc361c18dc11dc039104011ea_231796209742860150.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp" alt="" class="avatar-img" width="50%" height="auto" data-bs-target="#staticBackdrop"
+    data-bs-toggle="modal">
+  <button class="fas fa-edit text-primary">Editar</button>
+  </div>
+
+  <div class="item3-t">
+    <p >texto de prueba</p>
+    </div>
+
+  <div class="item4-p">
+  <p >hola</p>
+  </div>
+
+
+
+  </div>-->
+
+<!--<form [formGroup]="Image1AvatarForm" (ngSubmit)="displayAvatar3()">
+  <div class="mt-5 container d-flex flex-column align-items-center justify-content-center" formControlName="name">
+    <div class="col-4">
+      <img src="" alt="" class="avatar-img" width="140" height="140" data-bs-target="#staticBackdrop">
+      </div>
+    <br />
+   </div>
+</form>-->

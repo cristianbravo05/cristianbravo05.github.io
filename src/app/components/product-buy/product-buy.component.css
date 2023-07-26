@@ -1,0 +1,197 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  /*background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);*/
+  background: var(--blackredlack90);
+  /*min-height: 100vh;*/
+  min-height: 100%;
+
+}
+
+div{
+
+ background-color: var(--transparente);
+
+}
+
+p,FONT,H2{
+
+  color: var(--white);
+
+}
+
+ngb-rating {
+  color: #FFC107;
+  font-size: 50px;
+}
+
+.item1-t { grid-area: title;}
+.item2-i { grid-area: image;}
+.item3-t { grid-area: texto;}
+.item4-p { grid-area: price;}
+.item5-c {grid-area: charac;}
+.item6-l {grid-area: list;}
+
+.item1-bt { grid-area: name;}
+.item2-bi { grid-area: reputation;}
+.item3-bt { grid-area: place;}
+.item4-bp { grid-area: cellphone;}
+
+.item1-im { grid-area: image1;}
+.item2-im2 { grid-area: image2;}
+
+.itemt1 { grid-area: grid1;}
+.itemt2 { grid-area: grid2;}
+
+.item1 { grid-area: body; }
+.item2-1 { grid-area: image1; width: 0px;}
+.item2-2 { grid-area: image2; width: 0px;}
+.item2-3 { grid-area: image3; width: 0px;}
+.item2-4 { grid-area: image4; width: 0px;}
+.item2-5 { grid-area: image5; width: 0px;}
+.item3 { grid-area: header; }
+.item4 { grid-area: footer; }
+.item5 { grid-area: margen; }
+.item6 { grid-area: margenv2; }
+
+.item7-1{ grid-area: text1; }
+.item7-2{ grid-area: text2; }
+.item7-3{ grid-area: text3; }
+.item7-4{ grid-area: text4; }
+
+
+
+
+.grid-containerv {
+  display: grid;
+ /* grid-template-areas:
+  'image title'
+   'price texto';*/
+  grid-template-areas:
+  'image title'
+  'price texto'
+  'charac charac'
+  'list list';
+  gap: 0px;
+  /*background-color: #616161;*/
+  /* background-color: #0b1d26;*/
+  padding: 0px;
+  top:400px;
+  }
+
+  @media only screen and (max-width: 800px) {
+  .grid-containerv {
+  display: grid;
+  margin-left: 0px;
+  grid-template-areas:
+    'image1 image1'
+    'image2 image2';
+  gap: 10px;
+  /*background-color: #616161;*/
+  /* background-color: #0b1d26;*/
+  padding: 10px;
+  top:200px;
+
+    }
+  }
+
+  .grid-containerv2 {
+    display: grid;
+   /* grid-template-areas:
+    'image title'
+     'price texto';*/
+    grid-template-areas:
+    'name'
+    'reputation'
+    'place'
+    'cellphone';
+    gap: 0px;
+    /*background-color: #616161;*/
+    /* background-color: #0b1d26;*/
+    padding: 0px;
+    top:400px;
+    }
+
+    @media only screen and (max-width: 800px) {
+    .grid-containerv2 {
+    display: grid;
+    margin-left: 0px;
+    grid-template-areas:
+      'image1 image1'
+      'image2 image2';
+    gap: 10px;
+    /*background-color: #616161;*/
+    /* background-color: #0b1d26;*/
+    padding: 10px;
+    top:200px;
+
+      }
+    }
+
+    .grid-containerv3 {
+      display: grid;
+     /* grid-template-areas:
+      'image title'
+       'price texto';*/
+      grid-template-areas:
+      'grid1 grid2';
+      gap: 0px;
+      /*background-color: #616161;*/
+      /* background-color: #0b1d26;*/
+      padding: 0px;
+      top:400px;
+      }
+
+      @media only screen and (max-width: 800px) {
+      .grid-containerv3 {
+      display: grid;
+      margin-left: 0px;
+      grid-template-areas:
+        'image1 image1'
+        'image2 image2';
+      gap: 10px;
+      /*background-color: #616161;*/
+      /* background-color: #0b1d26;*/
+      padding: 10px;
+      top:200px;
+
+        }
+      }
+
+      .grid-containerv4 {
+        display: grid;
+       /* grid-template-areas:
+        'image title'
+         'price texto';*/
+        grid-template-areas:
+        'image1'
+        'image2';
+        gap: 0px;
+        /*background-color: #616161;*/
+        /* background-color: #0b1d26;*/
+        padding: 0px;
+        top:400px;
+        }
+
+        @media only screen and (max-width: 800px) {
+        .grid-containerv4 {
+        display: grid;
+        margin-left: 0px;
+        grid-template-areas:
+          'image1 image1'
+          'image2 image2';
+        gap: 10px;
+        background: linear-gradient( #0b1d26,#616161);
+        /*background-color: #616161;*/
+        /* background-color: #0b1d26;*/
+        padding: 10px;
+        top:200px;
+
+          }
+        }

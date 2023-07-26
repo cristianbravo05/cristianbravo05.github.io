@@ -1,0 +1,16 @@
+:root {
+--greyback:radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+--redback:linear-gradient(90deg, rgb(186, 16, 27) 0%, rgb(8, 8, 8) 100%);
+--red90back: linear-gradient(183deg, rgb(186, 16, 27) 0%, rgb(8, 8, 8) 100%);
+--red90blackred: linear-gradient(183deg, rgb(162, 5, 16) 0%, rgb(8, 8, 8) 48%, rgb(113, 5, 5) 100%);
+--blackredlack90: linear-gradient(180deg, rgb(3, 3, 3) 0%, rgb(139, 4, 4) 33%, rgb(128, 4, 4) 66%, rgb(6, 6, 6) 100%);
+--white: #ffffff;
+--transparente: transparent;
+--card-width:  350px;
+--card-height: 500px;
+--h-color:     #9CC9E3;
+--yellow:      #D0BB57;
+--txt-color:   #DCE3E7;
+
+}
+
