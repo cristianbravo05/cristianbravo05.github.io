@@ -45,6 +45,31 @@ export class ListarProductosComponent implements OnInit {
 
   ngOnInit(): void {
     this.obtenerProductos();
+
+   /* Market Curriculum EnglishMG */
+
+   var Market = document?.getElementById('Market') as HTMLElement
+   var Curriculum = document?.getElementById('Curriculum') as HTMLElement
+   var EnglishMG = document?.getElementById('EnglishMG') as HTMLElement
+
+   var Market2 = document?.getElementById('Market2') as HTMLElement
+   var Curriculum2 = document?.getElementById('Curriculum2') as HTMLElement
+   var EnglishMG2 = document?.getElementById('EnglishMG2') as HTMLElement
+
+   var List = document?.getElementById('List') as HTMLElement
+
+   var List2 = document?.getElementById('List2') as HTMLElement
+
+   Market.style.color = 'white';
+   Curriculum.style.color = 'white';
+   EnglishMG.style.color = 'white';
+   List.style.color = 'white';
+
+   Market2.style.color = 'white';
+   Curriculum2.style.color = 'white';
+   EnglishMG2.style.color = 'white';
+   List2.style.color = 'white';
+
   }
 
 

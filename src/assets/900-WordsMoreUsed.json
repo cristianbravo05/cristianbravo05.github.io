@@ -1,0 +1,390 @@
+[
+ {
+  "English": "above",
+  "Espanol": "arriba"
+ },
+ {
+  "English": "act",
+  "Espanol": "acto"
+ },
+ {
+  "English": "analysis",
+  "Espanol": "análisis"
+ },
+ {
+  "English": "answer",
+  "Espanol": "respuesta"
+ },
+ {
+  "English": "arrive",
+  "Espanol": "llegar"
+ },
+ {
+  "English": "authority",
+  "Espanol": "autoridad"
+ },
+ {
+  "English": "benefit",
+  "Espanol": "beneficio"
+ },
+ {
+  "English": "bill",
+  "Espanol": "factura"
+ },
+ {
+  "English": "blue",
+  "Espanol": "azul"
+ },
+ {
+  "English": "card",
+  "Espanol": "tarjeta"
+ },
+ {
+  "English": "cell",
+  "Espanol": "celúla"
+ },
+ {
+  "English": "check",
+  "Espanol": "controlar"
+ },
+ {
+  "English": "claim",
+  "Espanol": "afirmar"
+ },
+ {
+  "English": "clearly",
+  "Espanol": "claramente"
+ },
+ {
+  "English": "close",
+  "Espanol": "cerca"
+ },
+ {
+  "English": "cold",
+  "Espanol": "frío"
+ },
+ {
+  "English": "compare",
+  "Espanol": "comparar"
+ },
+ {
+  "English": "crime",
+  "Espanol": "delito"
+ },
+ {
+  "English": "dark",
+  "Espanol": "oscuro"
+ },
+ {
+  "English": "deal",
+  "Espanol": "trato"
+ },
+ {
+  "English": "democratic",
+  "Espanol": "democrático"
+ },
+ {
+  "English": "desing",
+  "Espanol": "diseño"
+ },
+ {
+  "English": "discuss",
+  "Espanol": "conversar"
+ },
+ {
+  "English": "election",
+  "Espanol": "elección"
+ },
+ {
+  "English": "enjoy",
+  "Espanol": "disfrutar"
+ },
+ {
+  "English": "enough",
+  "Espanol": "suficiente"
+ },
+ {
+  "English": "entire",
+  "Espanol": "completo"
+ },
+ {
+  "English": "environment",
+  "Espanol": "ambiente"
+ },
+ {
+  "English": "environmental",
+  "Espanol": "ambiental"
+ },
+ {
+  "English": "establish",
+  "Espanol": "establecer"
+ },
+ {
+  "English": "everybody",
+  "Espanol": "todos"
+ },
+ {
+  "English": "example",
+  "Espanol": "ejemplo"
+ },
+ {
+  "English": "executive",
+  "Espanol": "ejecutivo"
+ },
+ {
+  "English": "fail",
+  "Espanol": "fallar"
+ },
+ {
+  "English": "feeling",
+  "Espanol": "sentimiento"
+ },
+ {
+  "English": "final",
+  "Espanol": "final"
+ },
+ {
+  "English": "financial",
+  "Espanol": "financiero"
+ },
+ {
+  "English": "force",
+  "Espanol": "fuerza"
+ },
+ {
+  "English": "forget",
+  "Espanol": "olvidar"
+ },
+ {
+  "English": "form",
+  "Espanol": "forma"
+ },
+ {
+  "English": "forward",
+  "Espanol": "adelante"
+ },
+ {
+  "English": "general",
+  "Espanol": "general"
+ },
+ {
+  "English": "glass",
+  "Espanol": "vaso"
+ },
+ {
+  "English": "green",
+  "Espanol": "verde"
+ },
+ {
+  "English": "guess",
+  "Espanol": "adivinar"
+ },
+ {
+  "English": "gun",
+  "Espanol": "pistola"
+ },
+ {
+  "English": "hang",
+  "Espanol": "colgar"
+ },
+ {
+  "English": "help",
+  "Espanol": "ayuda"
+ },
+ {
+  "English": "indeed",
+  "Espanol": "en efecto"
+ },
+ {
+  "English": "knowledge",
+  "Espanol": "conocimiento"
+ },
+ {
+  "English": "laugh",
+  "Espanol": "reír"
+ },
+ {
+  "English": "lawyer",
+  "Espanol": "abogado"
+ },
+ {
+  "English": "lay",
+  "Espanol": "poner"
+ },
+ {
+  "English": "leg",
+  "Espanol": "pierna"
+ },
+ {
+  "English": "legal",
+  "Espanol": "legal"
+ },
+ {
+  "English": "little",
+  "Espanol": "pequeño"
+ },
+ {
+  "English": "main",
+  "Espanol": "principal"
+ },
+ {
+  "English": "manager",
+  "Espanol": "gerente"
+ },
+ {
+  "English": "memory",
+  "Espanol": "memoria"
+ },
+ {
+  "English": "messege",
+  "Espanol": "mensaje"
+ },
+ {
+  "English": "miss",
+  "Espanol": "extrañar"
+ },
+ {
+  "English": "name",
+  "Espanol": "nombre"
+ },
+ {
+  "English": "network",
+  "Espanol": "red"
+ },
+ {
+  "English": "note",
+  "Espanol": "nota"
+ },
+ {
+  "English": "one",
+  "Espanol": "uno"
+ },
+ {
+  "English": "operation",
+  "Espanol": "operación"
+ },
+ {
+  "English": "outside",
+  "Espanol": "afuera"
+ },
+ {
+  "English": "physical",
+  "Espanol": "físico"
+ },
+ {
+  "English": "present",
+  "Espanol": "presente"
+ },
+ {
+  "English": "professor",
+  "Espanol": "profesor"
+ },
+ {
+  "English": "prove",
+  "Espanol": "probar"
+ },
+ {
+  "English": "public",
+  "Espanol": "público"
+ },
+ {
+  "English": "rather",
+  "Espanol": "bastante"
+ },
+ {
+  "English": "religious",
+  "Espanol": "religioso"
+ },
+ {
+  "English": "remove",
+  "Espanol": "eliminar"
+ },
+ {
+  "English": "rock",
+  "Espanol": "roca"
+ },
+ {
+  "English": "science",
+  "Espanol": "ciencia"
+ },
+ {
+  "English": "seat",
+  "Espanol": "asiento"
+ },
+ {
+  "English": "section",
+  "Espanol": "sección"
+ },
+ {
+  "English": "set",
+  "Espanol": "colocar"
+ },
+ {
+  "English": "sex",
+  "Espanol": "sexo"
+ },
+ {
+  "English": "since",
+  "Espanol": "desde"
+ },
+ {
+  "English": "sister",
+  "Espanol": "hermana"
+ },
+ {
+  "English": "skill",
+  "Espanol": "habilidad"
+ },
+ {
+  "English": "song",
+  "Espanol": "canción"
+ },
+ {
+  "English": "sort",
+  "Espanol": "clasificar"
+ },
+ {
+  "English": "sound",
+  "Espanol": "sonido"
+ },
+ {
+  "English": "stage",
+  "Espanol": "escenario"
+ },
+ {
+  "English": "standard",
+  "Espanol": "estándar"
+ },
+ {
+  "English": "state",
+  "Espanol": "estado"
+ },
+ {
+  "English": "station",
+  "Espanol": "estación"
+ },
+ {
+  "English": "strategy",
+  "Espanol": "estrategia"
+ },
+ {
+  "English": "study",
+  "Espanol": "estudiar"
+ },
+ {
+  "English": "ten",
+  "Espanol": "diez"
+ },
+ {
+  "English": "trade",
+  "Espanol": "comercio"
+ },
+ {
+  "English": "truth",
+  "Espanol": "verdad"
+ },
+ {
+  "English": "various",
+  "Espanol": "varios"
+ }
+]

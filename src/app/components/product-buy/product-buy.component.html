@@ -1,303 +1,345 @@
-<!--<div class="container">-->
-<body>
 
-<div class="grid-containerv3">
-
-  <div class="grid1" style="width: 100px;">
-    <!--<div class="grid">-->
+<body style="height: 1000px; margin-top: 200px;">
 
 
-      <!--| slice:page:page+5 | callback:findColor:color-->
-      <!--"let avatar2 of imageFilter | filterPeople:colors |  sort:'price':orden"-->
+  <div class="grid-containervstart">
 
+    <ng-container *ngFor="let avatar2 of imageFilter | filterPeople:'azul atardecer'" class="avatar-list">
 
-        <ng-container *ngFor="let avatar2 of imageFilter | filterPeople:'azul atardecer'" class="avatar-list">
-          <div class="grid-containerv" style="width: 1000px;">
+      <div class="item1-images1 imagexp">
 
-          <div class="item2-i" style="margin-left: 100px;">
-          <!--<img  src={{avatar2.url}} alt="" class="avatar-img" width="100%" height="auto" data-bs-target="#staticBackdrop"
-            data-bs-toggle="modal" (click)="modalData(avatar2)" >-->
+          <ng-container *ngFor="let avatar5 of imageFilter | filterPeople:'azul atardecer'"class="avatar-list">
 
-            <ng-container *ngFor="let avatar5 of imageFilter | filterPeople:'azul atardecer'"class="avatar-list">
+            <div class="grid-containerv4">
 
-              <div class="grid-containerv4">
+              <div *ngIf="image == null; else elseBlock ">
 
-                <div *ngIf="image == null; else elseBlock ">
-
-                  {{changeimagelater(avatar5.url)}}
-
-                </div>
-
-                  <ng-template #elseBlock>
-                    <div class="item1-im" >
-
-                    <img  src={{image}} alt="" class="avatar-img" style="width: 500px; height: 400px; object-fit: cover;margin-top: 100px" data-bs-target="#staticBackdrop"
-                    data-bs-toggle="modal">
-                  </div>
-                  </ng-template>
-
-                <div class="item2-im2">
-                  <ng-container *ngFor="let avatar6 of avatar5.extraurl"class="avatar-list">
-
-                    <img  src={{avatar6}} alt="" class="avatar-img" height="auto" data-bs-target="#staticBackdrop"
-                    data-bs-toggle="modal" (click)="changeimage(avatar6)" style="width: 100px; height: 50px; object-fit: cover;">
-
-
-                  </ng-container>
-                </div>
-              <!--<img  src='assets/Imagenes prueba/ai-art-clouds-colorful-sky-2226902.jpg' alt="" class="avatar-img" width="20%" height="auto" data-bs-target="#staticBackdrop"
-              data-bs-toggle="modal" (click)="changeimage('assets/Imagenes prueba/ai-art-clouds-colorful-sky-2226902.jpg')">
-              <img  src='assets/Imagenes prueba/anime-1562445.jpg' alt="" class="avatar-img" width="20%" height="auto" data-bs-target="#staticBackdrop"
-              data-bs-toggle="modal" (click)="changeimage('assets/Imagenes prueba/anime-1562445.jpg')">
-              <img  src='assets/Imagenes prueba/anime-girl-1275977.jpg' alt="" class="avatar-img" width="20%" height="auto" data-bs-target="#staticBackdrop"
-              data-bs-toggle="modal" (click)="changeimage('assets/Imagenes prueba/anime-girl-1275977.jpg')">-->
+                {{changeimagelater(avatar5.url)}}
 
               </div>
 
-            </ng-container>
+                <ng-template #elseBlock>
+                  <div class="item1-im">
+                    <div class="mainimg">
+                        <img  src={{image}} alt="" class="avatar-img" style="width: 100%; height: auto; object-fit: cover;margin-top: 3px;margin-left: 2px;" data-bs-target="#staticBackdrop"
+                        data-bs-toggle="modal">
+                    </div>
+                  </div>
+                </ng-template>
+                <div></div>
+                <div class="item2-im2" style="margin-left: -8px;">
+                  <ng-container *ngFor="let avatar6 of avatar5.extraurl"class="avatar-list">
+                    <img  src={{avatar6}} alt="" class="avatar-img" height="auto" data-bs-target="#staticBackdrop"
+                    data-bs-toggle="modal" (click)="changeimage(avatar6)" style="width: 70px; height: 70px;margin-top: 10px; object-fit: cover;position: relative;">
+                  </ng-container>
+                </div>
 
-          <!--<button [routerLink]="['/edit-avatar', avatar2]" class="fas fa-edit text-primary">Editar</button>-->
-          </div>
-          <div class="item1-t" style="text-align: left;width: 600px;margin-left: 50px;height: 250px;margin-top: 220px">
-          <FONT face="American Typewriter" style=" font-weight: bold; ">{{avatar2.color | uppercase }}</FONT>
-          <br>
-          <!--<FONT>{{avatar2.color | uppercase }}</FONT>-->
-          </div>
-          <div class="item4-p" style="margin-right: 130px;text-align: center;margin-left: 80px;">
-          <p>{{avatar2.price | currency:'USD'}}</p>
-          </div>
-          <div class="item3-t" style="margin-top: -280px;margin-left: 50px; width: 500px;">
-
-          <p>es es un texto de pruba para el objeto
-            <FONT style=" font-weight: bold;">{{avatar2.color | uppercase }}</FONT>
-            este sera remplazado por otro en un futuro
-            hay se pondra un texto referente a las caracteristicas del producto
-            y otros datos referentes al vendedor y donde esta ubicado</p>
-
-          <ng-container *ngFor="let avatar3 of avatar2.tag" class="avatar-list">
-            <FONT><a [routerLink]="['/edit-avatar', avatar3]" style="text-decoration:none;">{{avatar3}}&nbsp;&nbsp;</a></FONT>
-            <!--<div>
-              <ul>
-                <li><FONT><a [routerLink]="['/edit-avatar', avatar3]" style="text-decoration:none;">{{avatar3}}&nbsp;&nbsp;</a></FONT></li>
-              </ul>
-            </div>-->
-          </ng-container>
-          <!--<p><a id="dinero" href="https://www.google.com.co/">{{avatar2.tag}}</a></p>-->
-
-          </div>
-
-          <div class="item5-c" style="margin-top: 100px;margin-left: 100px; width: 500px;">
-
-            <!--<p>es es un texto de pruba para el objeto
-              <FONT style=" font-weight: bold;">{{avatar2.color | uppercase }}</FONT>
-              este sera remplazado por otro en un futuro
-              hay se pondra un texto referente a las caracteristicas del producto
-              y otros datos referentes al vendedor y donde esta ubicado</p>-->
-
-              <p>{{avatar2.text}}</p>
 
             </div>
-          <!--<form (ngSubmit)="onSubmit(avatar2)">-->
-            <!--<button class="btn btn-warning">borrar</button>-->
-        <div class="item6-l" style="margin-left: 100px;margin-top: 50px;">
-          <ng-container *ngFor="let avatar4 of avatar2.caract" class="avatar-list">
-
-              <ul>
-                <li>{{avatar4}}</li>
-              </ul>
 
           </ng-container>
-        </div>
+
+      </div>
+
+      <div class="item2-text1">
+
+        <div class="boxdesc">
+
+          <div style="text-align: left;width: 500px;">
+
+            <br>
+            <br>
+            <br>
+
+            <FONT class="h3" face="American Typewriter" style="font-weight: bold;color: #2B2D42;margin-left: 40px;">{{avatar2.color | uppercase}}</FONT>
+            <br>
+
+            <ngb-rating [max]="5" [(rate)]="starRating2" [readonly]="true" style="position: absolute;margin-left: 40px;color: #EF233C;"></ngb-rating>
+
+            <br>
+            <br>
+            <br>
+            <br>
 
           </div>
 
+            <br>
+            <br>
+          <div class="hijo">
+            <p style="color: #1D3557;font-family: Gill Sans, sans-serif;width: 98%;margin-left: 5px;text-align: justify;width: 80%;" >es es un texto de pruba para el objeto
+              <FONT style=" font-weight: bold;width: 380px;">{{avatar2.color | uppercase }}</FONT>
+              este sera remplazado por otro en un futuro
+              hay se pondra un texto referente a las caracteristicas del producto
+            y otros datos referentes al vendedor y donde esta ubicado</p>
+          </div>
 
-    </ng-container>
-
-<!--</div>-->
-</div>
-
-<!--<div class="container">-->
-  <div class="grid2" style="width:200px; margin-left: 900px;margin-top: 100px;">
-    <!--<div class="grid">-->
-
-
-      <!--| slice:page:page+5 | callback:findColor:color-->
-      <!--"let avatar2 of imageFilter | filterPeople:colors |  sort:'price':orden"-->
-
-      <ng-container *ngFor="let buy of buyman | filterPeople:'azul atardecer'" class="avatar-list">
-        <div class="grid-containerv2" >
-
-          <table class="table table-dark">
-            <thead>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Nombre</th>
-                <td scope="row">{{buy.nombre}}</td>
-              </tr>
-              <tr>
-                <th>Reputacion</th>
-                <td scope="row">{{buy.reputacion}}</td>
-              </tr>
-              <tr>
-                <th>Ubicacion</th>
-                <td scope="row">{{buy.ubicacion}}</td>
-              </tr>
-              <tr>
-                <th >Contacto</th>
-                <td scope="row">{{buy.contacto}}</td>
-              </tr>
-              <tr>
-              </tr>
-            </tbody>
-          </table>
-
-
-
-         <!--<div class="item1-bt" style="text-align: left;width: 600px;margin-left: 200px;height: 60px;margin-top: 50px;">
-          <FONT face="American Typewriter" style=" font-weight: bold;">{{buy.nombre | uppercase }}</FONT>
           <br>
+
+          <div style="margin-left: 50px;">
+
+            <ng-container *ngFor="let avatar3 of avatar2.tag" class="avatar-list" s>
+
+              <FONT><a [routerLink]="['/edit-avatar', avatar3]" style="text-decoration:none;font-family: Gill Sans, sans-serif; color: #D90429;font-weight: bold;">{{avatar3}}&nbsp;&nbsp;</a></FONT>
+
+            </ng-container>
+
           </div>
 
-          <!--<div class="item1-bt">
-           <p>{{buy.nombre}}</p>
-          </div>-->
+          <br>
+          <br>
 
-          <!--<div class="item2-bi" style="text-align: left;width: 600px;margin-left: 200px;height: 60px;">
-            <p>{{buy.reputacion}}</p>
-          </div>
-
-          <div class="item3-bt" style="text-align: left;width: 600px;margin-left: 200px;height: 60px;">
-            <p>{{buy.ubicacion}}</p>
-          </div>
-
-          <div class="item4-bp" style="text-align: left;width: 600px;margin-left: 200px;height: 60px;">
-            <p>{{buy.contacto}}</p>
-          </div>-->
+          <p style="border: 3px solid black; color: #1D3557;margin: 8px;width: 280px; font-weight: bold;font-size: 40px;margin-top: 50px;margin-left: 50px;text-align: center;">Precio: {{avatar2.price | currency:'USD'}}</p>
 
         </div>
 
 
+      </div>
+
+      <div class="item2-table1 center tablestart" style="font-family: Gill Sans, sans-serif;">
+
+
+
+            <ng-container *ngFor="let buy of buyman | filterPeople:'azul atardecer'" class="avatar-list">
+
+                <table class="table rounded-corners taco " id="buyerTable2" style="background-color: #D90429;color: white;">
+
+                  <tr>
+
+                    <td colspan="2" scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;font-size: 1.2em">
+                      <p style="text-align: center;padding: 0px;text-transform: capitalize;font-weight: bold; color: white;font-size: 1.3em;margin-top: -20px;font-family: Gill Sans, sans-serif;">Tiempo de <br> llegada: </p>{{daytime}}</td>
+                  </tr>
+                  <tr>
+                    <th >Stock:</th>
+                    <td scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;">{{buy.stock}}</td>
+                  </tr>
+
+                </table>
+
+                <br>
+
+                <label style="font-weight: bold;text-align: center;font-size: 1.5em;margin-bottom: 10px;width: 100%;">Informacion Del <br> Vendedor</label>
+
+
+                <table class="table rounded-corners taco" id="buyerTable" style="background-color: #D90429;color: white;">
+
+                  <tr>
+                    <th>Nombre:</th>
+                    <td scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;">{{buy.nombre}}</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" scope="row" >
+                      <div class="hijo">
+                      <button style="border-radius: 20px;height: 50px;width: 80%;font-weight: bold; color: black;background-color: white;font-family: Gill Sans, sans-serif;" [routerLink]="['/product-creator/4']">Mas Informacion</button>
+                      </div>
+                    </td>
+                  </tr>
+
+                </table>
+                <br>
+
+                <div class="hijo">
+
+                  <button style="border-radius: 20px;height: 50px;font-size: 25px;font-weight: bold;margin-bottom: 10px; width: 250px;font-family: Gill Sans, sans-serif;">COMPRAR</button>
+
+                  <button style="border-radius: 20px;height: 50px;font-size: 25px;font-weight: bold;width: 300px;font-family: Gill Sans, sans-serif;">AGREGAR AL CARRO</button>
+
+                </div>
+
+          </ng-container>
+
+
+
+      </div>
+
     </ng-container>
 
-<!--</div>-->
+  </div>
+
+  <div class="hijo" style="margin-top: -50px;margin-bottom: 25px;">
+
+    <div style="border-bottom: 5px solid #2B2D42; width: 90%;height: 100px;"></div>
+
+  </div>
+
+<div class="grid-containerv3" >
+
+  <div class="grid1" style="width: 100px;margin-top: 10px;">
+
+        <ng-container *ngFor="let avatar2 of imageFilter | filterPeople:'azul atardecer'" class="avatar-list">
+
+          <div style="width: 800px;font-family: Gill Sans, sans-serif;margin-left: 100px;" >
+            <ng-container *ngFor="let avatar5 of imageFilter| filterPeople:'azul atardecer'" class="avatar-list">
+              <ng-container *ngFor="let i of [].constructor(avatar5.text.length); let inx = index;">
+
+                <ng-container *ngIf="avatar5.text2[inx]==='0'">
+
+                  <br>
+
+                </ng-container>
+
+                <ng-container *ngIf="avatar5.text2[inx]==='1'">
+
+                  <div class="h1">{{avatar5.text[inx]}}:</div>
+
+                </ng-container>
+
+                <ng-container *ngIf="avatar5.text2[inx]==='2'">
+
+                  <p>{{avatar5.text[inx]}}:</p>
+
+                </ng-container>
+
+
+                <ng-container *ngIf="avatar5.text2[inx]==='3'">
+
+                  <ul>
+                    <li>{{avatar5.text[inx]}}</li>
+                  </ul>
+
+                </ng-container>
+
+                <ng-container *ngIf="avatar5.text2[inx]==='4'">
+
+                  <ul>
+                    <img width="80%" height="auto" src={{avatar5.text[inx]}}>
+                  </ul>
+
+                </ng-container>
+
+             </ng-container>
+
+            </ng-container>
+          </div>
+
+
+    </ng-container>
+
   </div>
 
 </div>
 
-<!--<ng-container *ngFor="let avatar2 of productbuy | filterPeople:'azul atardecer'" class="avatar-list">-->
+<div class="hijo">
 
-
-    <!--<tr>
-      <ng-container *ngFor="let avatar5 of avatar2.titulodescripcion"class="avatar-list">
-      <th scope="row">{{avatar5}}</th>
-      </ng-container>
-      <ng-container *ngFor="let avatar5 of avatar2.descripcion"class="avatar-list">
-      <td scope="row">{{avatar5}}</td>
-      </ng-container>
-    </tr>-->
-
-<H2 style="margin-left: 100px;margin-top: 100px;"> Descripcion </H2>
-
-  <div style="width: 500px; align-items: center;margin-left: 100px;margin-top: 50px;">
-
-  <ng-container *ngFor="let avatar5 of productbuy| filterPeople:'azul atardecer'"class="avatar-list">
-
-  <p>{{avatar5.descripciontext}}</p>
-
-  </ng-container>
+  <div style="border-bottom: 5px solid #2B2D42; width: 90%;height: 100px;"></div>
 
 </div>
 
-<H2 style="margin-left: 100px;margin-top: 100px;"> Ficha técnica </H2>
+<div class="h2" style="margin-left: 100px;margin-top: 100px;margin-bottom: 50px;"> Ficha técnica </div>
 
-<table class="table table-dark" style="text-align: left; width: 600px; margin-left: 100px;margin-top: 50px;">
+<div class="grid-containervtables" style="margin-left: 100px;border: 1px solid black;border-radius: 20px;width: 1150px;">
+
+  <!--<div style="border: 1px solid black;border-radius: 20px;">-->
+
+<table class="item1-ct1" id="tablefc1" style="text-align: left;width: 300px;">
       <tbody>
       <ng-container *ngFor="let avatar5 of productbuy| filterPeople:'azul atardecer'"class="avatar-list">
-      <ng-container *ngFor="let i of [].constructor(avatar5.titulodescripcion.length); let inx = index;">
-      <tr>
-      <th >{{avatar5.titulodescripcion[inx] | uppercase}}</th>
-      <td style="text-align: left;" scope="row">{{avatar5.descripcion[inx]}}</td>
-      </tr>
+        <ng-container *ngFor="let i of [].constructor(avatar5.titulodescripcion.length); let inx = index;">
+
+
+
+        <ng-container *ngIf="inx%2==0">
+
+          <tr>
+
+          <th style="text-align: right;height: 100px;vertical-align: middle;">{{avatar5.titulodescripcion[inx] | uppercase}}:&nbsp;&nbsp;&nbsp;</th>
+          <td style="text-align: left;vertical-align: middle;margin-left: 10px;" scope="row">{{avatar5.descripcion[inx]}}</td>
+
+          </tr>
+
+        </ng-container>
+
       </ng-container>
     </ng-container>
   </tbody>
 </table>
 
-<H2 style="margin-left: 100px;margin-top: 100px;"> Comentarios </H2>
 
-<table  class="table table-light" style="text-align: left; width: 600px; margin-left: 100px;margin-top: 50px;">
-  <tbody>
-  <ng-container *ngFor="let avatar5 of productbuy| filterPeople:'azul atardecer'"class="avatar-list">
-  <ng-container *ngFor="let i of [].constructor(avatar5.nombreopiniones.length); let inx = index;">
-  <tr>
-  <th >{{avatar5.nombreopiniones[inx] | uppercase}}</th>
-  <td style="text-align: left;" scope="row">{{avatar5.opiniones[inx]}}</td>
-  </tr>
-  </ng-container>
-</ng-container>
-</tbody>
+
+
+  <table class="item2-ct2" id="tablefc2" style="text-align: left;width: 50px;">
+    <tbody >
+    <ng-container *ngFor="let avatar5 of productbuy| filterPeople:'azul atardecer'"class="avatar-list" >
+      <ng-container *ngFor="let i of [].constructor(avatar5.titulodescripcion.length); let inx = index;">
+
+        <tr>
+        <ng-container *ngIf="inx%2!=0">
+
+          <th style="text-align: right;vertical-align: middle;">{{avatar5.titulodescripcion[inx] | uppercase}}:&nbsp;&nbsp;&nbsp;</th>
+          <td style="text-align: left;vertical-align: middle;" scope="row">{{avatar5.descripcion[inx]}}</td>
+
+        </ng-container>
+        <ng-container *ngIf="inx==avatar5.titulodescripcion.length">
+
+          <th style="height: 100px;">0</th>
+          <td style="text-align: left;" scope="row">0</td>
+
+        </ng-container>
+        </tr>
+
+      </ng-container>
+    </ng-container>
+    </tbody>
+  </table>
+
+
+
+</div>
+
+<div class="hijo">
+
+  <div style="border-bottom: 5px solid #2B2D42; width: 90%;height: 100px;"></div>
+
+</div>
+
+<div class="h2" style="margin-left: 100px;margin-top: 100px;"> Comentarios </div>
+
+<div class="hijo">
+<table  class="table-light" style="text-align: left;margin-top: 50px;width: 500px;">
+    <tbody>
+      <ng-container *ngFor="let avatar5 of productbuy| filterPeople:'azul atardecer'"class="avatar-list">
+        <ng-container *ngFor="let i of [].constructor(avatar5.nombreopiniones.length); let inx = index;">
+
+          <br>
+
+        <tr>
+
+          <th >
+            <ngb-rating [max]="5" [rate]=avatar5.oprate[inx] [readonly]="true" style="color: #EF233C;font-size: 30px;margin-left: 20px;"></ngb-rating>
+            <!--{{avatar5.nombreopiniones[inx] | uppercase}}-->
+          </th>
+          <td style="text-align: right;" scope="row">{{avatar5.opiniones[inx]}}</td>
+
+        </tr>
+        <tr style="border-bottom: 0.5px solid #8D99AE;">
+
+          <td colspan="2" style="text-align: left;padding: 25px;margin-bottom: 20px;"><br>{{avatar5.opcoment[inx]}}<br><br><br></td>
+
+        </tr>
+        </ng-container>
+      </ng-container>
+  </tbody>
 </table>
+</div>
 
-
-
-
-
-<!--<ng-container *ngFor="let avatar5 of imageFilter | filterPeople:'azul atardecer'"class="avatar-list">
-
-
-
-  <div style="width: 1000px; margin-left: 200px;">
-
-    <div *ngIf="image == null; else elseBlock ">
-
-      {{changeimagelater(avatar5.url)}}
-
-    </div>
-
-    <ng-template #elseBlock>
-
-      <img  src={{image}} alt="" class="avatar-img" width="100%" height="auto" data-bs-target="#staticBackdrop"
-      data-bs-toggle="modal">
-
-    </ng-template>
-
-
-
-
-  <ng-container *ngFor="let avatar6 of avatar5.extraurl"class="avatar-list">
-  <img  src={{avatar6}} alt="" class="avatar-img" height="auto" data-bs-target="#staticBackdrop"
-  data-bs-toggle="modal" (click)="changeimage(avatar6)" style="width: 180px; height: 150px; object-fit: cover;">
-  </ng-container>
-  <!--<img  src='assets/Imagenes prueba/ai-art-clouds-colorful-sky-2226902.jpg' alt="" class="avatar-img" width="20%" height="auto" data-bs-target="#staticBackdrop"
-  data-bs-toggle="modal" (click)="changeimage('assets/Imagenes prueba/ai-art-clouds-colorful-sky-2226902.jpg')">
-  <img  src='assets/Imagenes prueba/anime-1562445.jpg' alt="" class="avatar-img" width="20%" height="auto" data-bs-target="#staticBackdrop"
-  data-bs-toggle="modal" (click)="changeimage('assets/Imagenes prueba/anime-1562445.jpg')">
-  <img  src='assets/Imagenes prueba/anime-girl-1275977.jpg' alt="" class="avatar-img" width="20%" height="auto" data-bs-target="#staticBackdrop"
-  data-bs-toggle="modal" (click)="changeimage('assets/Imagenes prueba/anime-girl-1275977.jpg')">-->
-
-  <!--</div>
-
-</ng-container>-->
-
-<!--</ng-container>-->
 <div style="height: 400px;">
-<form style="background-color: rgb(56, 0, 0);" >
+<form style="background-color: #EF233C; " > <!--EF233C D90429-->
   <div class="container my-5 py-5 text-dark">
     <div class="row d-flex justify-content-center">
       <div class="col-md-10 col-lg-8 col-xl-6">
-        <div class="card" style="background-color: gray;">
+        <div class="card" style="background-color: #2B2D42; ">
           <div class="card-body p-4">
             <div class="d-flex flex-start w-100">
-              <img class="rounded-circle shadow-1-strong me-3"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar" width="65"
-                height="65" />
+
+              <div class="circular--portrait">
+                <img src="assets/20190222_173259.jpg"/>
+              </div>
+
               <div class="w-100">
-                <h5>Añadir opinion sobre el Producto</h5>
+                <div class="h5" style="color: white;">Añadir opinion sobre el Producto</div>
 
                 <h2></h2>
-                <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating>
+                <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false" style="color: #D90429;"></ngb-rating>
 
 
                 <div class="form-outline">
@@ -323,10 +365,6 @@
 </div>
 
 </body>
-
-
-
-
 
 
 

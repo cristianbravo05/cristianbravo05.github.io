@@ -49,16 +49,16 @@ export class ListAvatarComponent implements OnInit {
 
   Image1AvatarForm!: FormGroup;
   imageFilter: ImageFilter[] = [
-    {text:'hola',caract:['hola','hola','hola'],tag:['tarde','ciudad','azulado'],price: 1,color:'azul atardecer',url:'assets/Imagenes prueba/a-1225983.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['nubaldo','rojo','tarde'],price: 6,color:'rojo nublado',url:'assets/Imagenes prueba/ai-art-clouds-colorful-sky-2226902.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['japones','torres','poblado'],price: 2,color:'torre japones',url:'assets/Imagenes prueba/anime-1562445.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['tarde','luciernagas','tarde'],price: 7,color:'atardecer luciernagas',url:'assets/Imagenes prueba/anime-girl-1275977.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['fantasia','barco','cielo'],price: 3,color:'barco',url:'assets/Imagenes prueba/anime-girl-sky-1275967.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['cosmico','morado','planeta'],price: 8,color:'cosmico morado',url:'assets/Imagenes prueba/ART-1435431.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['fantasia','montañoso','subreal'],price: 4,color:'fantasia azul',url:'assets/Imagenes prueba/artwork-digital-art-nature-anime-2238164.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['noche','fantasia','ballenas','subreal'],price: 9,color:'constelacion ballenas',url:'assets/Imagenes prueba/artwork-digital-art-rocks-nature-whale-animals-water-2230288.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['estrellas','decierto','noche'],price: 5,color:'decierto estrellado',url:'assets/Imagenes prueba/astronomy-Milky-Way-nature-lake-mountain-1212379.jpg',extraurl:['hola']},
-    {text:'hola',caract:['hola','hola','hola'],tag:['ciudad','noche','iluminado'],price: 10,color:'ciudad noche',url:'assets/Imagenes prueba/city-1266869.jpg',extraurl:['hola']}
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['tarde','ciudad','azulado'],price: 1,color:'azul atardecer',url:'assets/Imagenes prueba/a-1225983.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['nubaldo','rojo','tarde'],price: 6,color:'rojo nublado',url:'assets/Imagenes prueba/ai-art-clouds-colorful-sky-2226902.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['japones','torres','poblado'],price: 2,color:'torre japones',url:'assets/Imagenes prueba/anime-1562445.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['tarde','luciernagas','tarde'],price: 7,color:'atardecer luciernagas',url:'assets/Imagenes prueba/anime-girl-1275977.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['fantasia','barco','cielo'],price: 3,color:'barco',url:'assets/Imagenes prueba/anime-girl-sky-1275967.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['cosmico','morado','planeta'],price: 8,color:'cosmico morado',url:'assets/Imagenes prueba/ART-1435431.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['fantasia','montañoso','subreal'],price: 4,color:'fantasia azul',url:'assets/Imagenes prueba/artwork-digital-art-nature-anime-2238164.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['noche','fantasia','ballenas','subreal'],price: 9,color:'constelacion ballenas',url:'assets/Imagenes prueba/artwork-digital-art-rocks-nature-whale-animals-water-2230288.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['estrellas','decierto','noche'],price: 5,color:'decierto estrellado',url:'assets/Imagenes prueba/astronomy-Milky-Way-nature-lake-mountain-1212379.jpg',extraurl:['hola']},
+    {text:['texto'],text2:['number'],caract:['hola','hola','hola'],tag:['ciudad','noche','iluminado'],price: 10,color:'ciudad noche',url:'assets/Imagenes prueba/city-1266869.jpg',extraurl:['hola']}
   ];
 
 

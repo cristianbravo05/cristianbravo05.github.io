@@ -1,0 +1,402 @@
+[
+ {
+  "English": "considerable",
+  "Espanol": "considerable"
+ },
+ {
+  "English": "constant",
+  "Espanol": "constante"
+ },
+ {
+  "English": "constitutional",
+  "Espanol": "constitucional"
+ },
+ {
+  "English": "contemporary",
+  "Espanol": "contemporáneo"
+ },
+ {
+  "English": "glad",
+  "Espanol": "contento"
+ },
+ {
+  "English": "continued",
+  "Espanol": "continuado"
+ },
+ {
+  "English": "controversial",
+  "Espanol": "controversial"
+ },
+ {
+  "English": "conventional",
+  "Espanol": "convencional"
+ },
+ {
+  "English": "corporate",
+  "Espanol": "corporativo"
+ },
+ {
+  "English": "correct",
+  "Espanol": "correcto"
+ },
+ {
+  "English": "running",
+  "Espanol": "correr"
+ },
+ {
+  "English": "short",
+  "Espanol": "corto"
+ },
+ {
+  "English": "creative",
+  "Espanol": "creativo"
+ },
+ {
+  "English": "growing",
+  "Espanol": "creciente"
+ },
+ {
+  "English": "increasing",
+  "Espanol": "creciente"
+ },
+ {
+  "English": "critical",
+  "Espanol": "crítico"
+ },
+ {
+  "English": "crucial",
+  "Espanol": "crucial"
+ },
+ {
+  "English": "raw",
+  "Espanol": "crudo"
+ },
+ {
+  "English": "square",
+  "Espanol": "cuadrado"
+ },
+ {
+  "English": "careful",
+  "Espanol": "cuidadoso"
+ },
+ {
+  "English": "guilty",
+  "Espanol": "culpable"
+ },
+ {
+  "English": "cultural",
+  "Espanol": "cultural"
+ },
+ {
+  "English": "curious",
+  "Espanol": "curioso"
+ },
+ {
+  "English": "given",
+  "Espanol": "dado"
+ },
+ {
+  "English": "OK",
+  "Espanol": "DE ACUERDO"
+ },
+ {
+  "English": "wooden",
+  "Espanol": "de madera"
+ },
+ {
+  "English": "weak",
+  "Espanol": "débil"
+ },
+ {
+  "English": "defensive",
+  "Espanol": "defensivo"
+ },
+ {
+  "English": "congressional",
+  "Espanol": "del congreso"
+ },
+ {
+  "English": "northern",
+  "Espanol": "del Norte"
+ },
+ {
+  "English": "southern",
+  "Espanol": "del Sur"
+ },
+ {
+  "English": "thin",
+  "Espanol": "delgado"
+ },
+ {
+  "English": "criminal",
+  "Espanol": "delincuente"
+ },
+ {
+  "English": "democratic",
+  "Espanol": "democrático"
+ },
+ {
+  "English": "flat",
+  "Espanol": "departamento"
+ },
+ {
+  "English": "dependent",
+  "Espanol": "dependiente"
+ },
+ {
+  "English": "straight",
+  "Espanol": "derecho"
+ },
+ {
+  "English": "developing",
+  "Espanol": "desarrollando"
+ },
+ {
+  "English": "unknown",
+  "Espanol": "desconocido"
+ },
+ {
+  "English": "willing",
+  "Espanol": "deseoso"
+ },
+ {
+  "English": "desperate",
+  "Espanol": "desesperado"
+ },
+ {
+  "English": "naked",
+  "Espanol": "desnudo"
+ },
+ {
+  "English": "detailed",
+  "Espanol": "detallado"
+ },
+ {
+  "English": "different",
+  "Espanol": "diferente"
+ },
+ {
+  "English": "difficult",
+  "Espanol": "difícil"
+ },
+ {
+  "English": "tough",
+  "Espanol": "difícil"
+ },
+ {
+  "English": "digital",
+  "Espanol": "digital"
+ },
+ {
+  "English": "tiny",
+  "Espanol": "diminuto"
+ },
+ {
+  "English": "direct",
+  "Espanol": "directo"
+ },
+ {
+  "English": "available",
+  "Espanol": "disponible"
+ },
+ {
+  "English": "distant",
+  "Espanol": "distante"
+ },
+ {
+  "English": "distinct",
+  "Espanol": "distinto"
+ },
+ {
+  "English": "diverse",
+  "Espanol": "diverso"
+ },
+ {
+  "English": "fun",
+  "Espanol": "divertido"
+ },
+ {
+  "English": "funny",
+  "Espanol": "divertido"
+ },
+ {
+  "English": "double",
+  "Espanol": "doble"
+ },
+ {
+  "English": "painful",
+  "Espanol": "doloroso"
+ },
+ {
+  "English": "domestic",
+  "Espanol": "doméstico"
+ },
+ {
+  "English": "dominant",
+  "Espanol": "dominante"
+ },
+ {
+  "English": "golden",
+  "Espanol": "dorado"
+ },
+ {
+  "English": "asleep",
+  "Espanol": "dormido"
+ },
+ {
+  "English": "gifted",
+  "Espanol": "dotado"
+ },
+ {
+  "English": "dramatic",
+  "Espanol": "dramático"
+ },
+ {
+  "English": "sweet",
+  "Espanol": "dulce"
+ },
+ {
+  "English": "hard",
+  "Espanol": "duro"
+ },
+ {
+  "English": "economic",
+  "Espanol": "económico"
+ },
+ {
+  "English": "educational",
+  "Espanol": "educativo"
+ },
+ {
+  "English": "effective",
+  "Espanol": "eficaz"
+ },
+ {
+  "English": "efficient",
+  "Espanol": "eficiente"
+ },
+ {
+  "English": "electric",
+  "Espanol": "eléctrico"
+ },
+ {
+  "English": "electronic",
+  "Espanol": "electrónico"
+ },
+ {
+  "English": "smart",
+  "Espanol": "elegante"
+ },
+ {
+  "English": "elementary",
+  "Espanol": "elemental"
+ },
+ {
+  "English": "pregnant",
+  "Espanol": "embarazada"
+ },
+ {
+  "English": "emotional",
+  "Espanol": "emocional"
+ },
+ {
+  "English": "exciting",
+  "Espanol": "emocionante"
+ },
+ {
+  "English": "ongoing",
+  "Espanol": "en curso"
+ },
+ {
+  "English": "overall",
+  "Espanol": "en general"
+ },
+ {
+  "English": "online",
+  "Espanol": "en línea"
+ },
+ {
+  "English": "ill",
+  "Espanol": "enfermo"
+ },
+ {
+  "English": "sick",
+  "Espanol": "enfermo"
+ },
+ {
+  "English": "angry",
+  "Espanol": "enojado"
+ },
+ {
+  "English": "mad",
+  "Espanol": "enojado"
+ },
+ {
+  "English": "enormous",
+  "Espanol": "enorme"
+ },
+ {
+  "English": "huge",
+  "Espanol": "enorme"
+ },
+ {
+  "English": "tremendous",
+  "Espanol": "enorme"
+ },
+ {
+  "English": "whole",
+  "Espanol": "entero"
+ },
+ {
+  "English": "wrong",
+  "Espanol": "equivocado"
+ },
+ {
+  "English": "false",
+  "Espanol": "erroneo"
+ },
+ {
+  "English": "Spanish",
+  "Espanol": "Español"
+ },
+ {
+  "English": "special",
+  "Espanol": "especial"
+ },
+ {
+  "English": "specific",
+  "Espanol": "específico"
+ },
+ {
+  "English": "spiritual",
+  "Espanol": "espiritual"
+ },
+ {
+  "English": "stable",
+  "Espanol": "estable"
+ },
+ {
+  "English": "steady",
+  "Espanol": "estable"
+ },
+ {
+  "English": "standard",
+  "Espanol": "estándar"
+ },
+ {
+  "English": "strategic",
+  "Espanol": "estratégico"
+ },
+ {
+  "English": "stupid",
+  "Espanol": "estúpido"
+ },
+ {
+  "English": "ethnic",
+  "Espanol": "étnico"
+ },
+ {
+  "English": "excellent",
+  "Espanol": "excelente"
+ }
+]

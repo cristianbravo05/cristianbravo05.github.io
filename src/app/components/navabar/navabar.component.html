@@ -1,8 +1,75 @@
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand mx-4" routerLink="/">NG Avatar</a>
-    <form class="d-flex mx-4">
-      <button class="btn btn-outline-success" routerLink="/add-avatar">Add Avatar</button>
-    </form>
-  </div>
-</nav>
+
+
+      <!--<button class="btn btn-outline-success" routerLink="/add-avatar">Add Avatar</button>
+      <button class="btn btn-outline-success" routerLink="/englishList">English Class</button>-->
+
+
+
+
+
+<nav class="menu navbar navbar-expand-lg" style="border-radius: 20px;margin-left: 50px;margin-right: 50px;height: 80px;margin-bottom: -100px;" >
+
+        <div class="container-fluid" style="background-color: transparent;">
+            <div class="collapse navbar-collapse" id="navbarContent" style="margin-left: 50px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item" >
+                        <a class="nav-link" style="margin-top: 2px; font-size: 1.5em;font-weight: bold;color: black;" href="/product-buy/azul%20atardecer" id="Market">Market</a>
+                    </li>
+                    <li class="nav-item" style="margin-left: 20px;">
+                        <a class="nav-link" style="margin-top: 2px;font-size: 1.5em;font-weight: bold;color: black;" href="/" id="Curriculum">Curriculum</a>
+                    </li>
+                    <li class="nav-item" style="margin-left: 20px;">
+                      <a class="nav-link" style="margin-top: 2px;font-size: 1.5em;font-weight: bold;color: black;" href="/" id="EnglishMG">English Memory Game</a>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav" style="margin-right: 100px;" >
+                <li ngbDropdown class="nav-item " role="presentation" style="display: left;">
+                  <button type="button" style="font-size: 2em;font-weight: bold;color: black;border: 0px;background-color: transparent;" class="nav-link" id="List"  ngbDropdownToggle>List Common Words</button>
+                  <div ngbDropdownMenu>
+                    <a ngbDropdownItem href="/englishList">Common Words</a>
+                    <a ngbDropdownItem href="/englishListVerb">Common Verbs</a>
+                    <a ngbDropdownItem href="/englishListItem">Common Items</a>
+                    <a ngbDropdownItem href="/englishListConnector">Common Connectors</a>
+                    <a ngbDropdownItem href="/englishListAdjective">Common Adjectives</a>
+                  </div>
+                </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="lateralmenu navbar fixed-top">
+      <button  class="navbar-toggler" style="margin-left: 20px; background-color: rgb(255, 255, 255);" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarsDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown" ngbDropdown>
+
+            <a class="dropdown-item" style="margin-left: 50px; margin-top: 30px; font-size: 1.5em;font-weight: bold;color: black; text-shadow: 0 0 5px #000000, 0 0 7px #000000;" href="/" id="Market2">Market</a>
+            <a class="dropdown-item" style="margin-left: 50px; margin-top: 10px; font-size: 1.5em;font-weight: bold;color: black; text-shadow: 0 0 5px #000000, 0 0 7px #000000;" href="/" id="Curriculum2">Curriculum</a>
+            <a class="dropdown-item" style="margin-left: 50px; margin-top: 10px; font-size: 1.5em;font-weight: bold;color: black; text-shadow: 0 0 5px #000000, 0 0 7px #000000;" href="/" id="EnglishMG2">English Memory Game</a>
+
+            <ul class="navbar-nav" style="margin-right: 100px;margin-top: 20px;" >
+              <li ngbDropdown class="nav-item " role="presentation" style="display: left;">
+                <button type="button" style="margin-left: 45px; font-size: 2em;font-weight: bold;color: black;border: 0px;background-color: transparent;text-shadow: 0 0 5px #000000, 0 0 7px #000000;" class="nav-link" id="List2"  ngbDropdownToggle>List Common Words</button>
+                <div ngbDropdownMenu>
+                  <a ngbDropdownItem href="/englishList">Common Words</a>
+                  <a ngbDropdownItem href="/englishListVerb">Common Verbs</a>
+                  <a ngbDropdownItem href="/englishListItem">Common Items</a>
+                  <a ngbDropdownItem href="/englishListConnector">Common Connectors</a>
+                  <a ngbDropdownItem href="/englishListAdjective">Common Adjectives</a>
+                </div>
+              </li>
+            </ul>
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+

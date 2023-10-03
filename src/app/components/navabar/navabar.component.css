@@ -1,0 +1,20 @@
+
+
+@media only screen and (max-width: 600px) {
+  .lateralmenu {
+  display: block;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .lateralmenu {
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu {
+  display: none;
+  }
+}
+
+

@@ -4,6 +4,7 @@ import * as $ from 'jquery';
 import * as MemorizePage1 from 'src/assets/MemorizePage1.json';
 //import * as XLSX from 'ts-xlsx';
 import * as XLSX from 'xlsx';
+import { isString } from '@ng-bootstrap/ng-bootstrap/util/util';
 
 @Component({
   selector: 'app-buy-page',
@@ -63,8 +64,24 @@ export class BuyPageComponent implements OnInit {
   public arraytest: Array<String> = [];
   public arraytestradius: Array<number> = [];
 
-  public DesdeN:number
-  public HastaN:number
+  //valores English Game
+
+  //Desde donde contar Has cuando Contar
+  public DesdeN:number = 0
+  public HastaN:number = 7
+
+  //Array para evitar que los valores se repitan
+  public listaword:number[] = [];
+
+  //catar maximo del array
+  public arrayex:number= 7
+  //indicador del valor leido en el array
+  public turnword:number= 0
+  //valor para saber cual es el numero mayor del array
+  public maxarray:number = 7
+
+  public scoreplus:number = 0
+  public scorenegative:number = 0
 
   arrayBuffer:any;
   file:File;
@@ -81,13 +98,13 @@ export class BuyPageComponent implements OnInit {
 
   [
 
-    {English:'bring',Español:'traer'},
-    {English:'though',Español:'aunque'},
-    {English:'since',Español:'desde'},
-    {English:'however',Español:'sin embargo'},
-    {English:'whether',Español:'si'},
-    {English:'lead',Español:'dirigir'},
-    {English:'appear',Español:'aparecer'},
+    {English:'bring',Espanol:'traer'},
+    {English:'though',Espanol:'aunque'},
+    {English:'since',Espanol:'desde'},
+    {English:'however',Espanol:'sin embargo'},
+    {English:'whether',Espanol:'si'},
+    {English:'lead',Espanol:'dirigir'},
+    {English:'appear',Espanol:'aparecer'},
 
   ]
 
@@ -105,13 +122,19 @@ export class BuyPageComponent implements OnInit {
 
   ngOnInit(): void {
 
+    for (let i = 0; i < this.arrayex; i++) {
+      this.listaword.push(i)
+    }
+
+    this.listaword = this.listaword.sort(function() {return Math.random() - 0.5});
+
     const RandonWord: HTMLElement = document.getElementById('RandonWord') as HTMLElement
 
     this.getRandomInt(this.maximo,this.minimo)
     this.MemoriGamesize = this.MemoriGame.length
-    this.getRandomIntBox2(this.maximo,this.minimo)
+    this.getRandomIntBox(this.maximo,this.minimo)
 
-    RandonWord.innerHTML = this.MemoriGame[this.word].English
+    RandonWord.innerHTML = this.MemoriGame[this.word].English!
 
     const item1: HTMLElement = document.getElementById('item1-q') as HTMLElement
     const item2: HTMLElement = document.getElementById('item2-q') as HTMLElement
@@ -122,16 +145,16 @@ export class BuyPageComponent implements OnInit {
 
 
     //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item1.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em'>${this.MemoriGame[this.wordnumber[0]].Español}</span>`
+    item1.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em'>${this.MemoriGame[this.wordnumber[0]].Espanol}</span>`
 
     //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item2.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>${this.MemoriGame[this.wordnumber[1]].Español}</span>`
+    item2.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>${this.MemoriGame[this.wordnumber[1]].Espanol}</span>`
 
     //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item3.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>${this.MemoriGame[this.wordnumber[2]].Español}</span>`
+    item3.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>${this.MemoriGame[this.wordnumber[2]].Espanol}</span>`
 
     //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item4.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>${this.MemoriGame[this.wordnumber[3]].Español}</span>`
+    item4.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>${this.MemoriGame[this.wordnumber[3]].Espanol}</span>`
 
     item5.innerHTML = `<span style='color: black;font-family: Georgia, serif;font-size:1.3em''>Nueva Pregunta</span>`
 
@@ -559,101 +582,117 @@ export class BuyPageComponent implements OnInit {
 
   }
 
-  getRandomInt(max:any,min:any) {
+  //funcion para calcular un nuevo palabras principal
+  getRandomInt(max:number,min:number) {
 
-    this.word = Math.floor(Math.random() * (max-min) + min);
+    //designa la palabra principal
+    this.word = this.listaword[this.turnword]
+
+    //asigna el numero menor del ciclo for
+    let i = min
+    //asigna el numero mayor del ciclo for
+    let z = max
+
+    // aumenta el indice que decide el valor que se muestra del array
+    this.turnword ++
+
+    //condicinal para saber si el indice en igual al valor maximo
+    if(this.turnword == z){
+
+      //restable el indice
+      this.turnword = 0
+
+      //elimina todos los valores del array
+      this.listaword = this.listaword.filter(word => word > (this.maxarray+1));
+
+      //ciclo de llenado del array
+      for (i ; i < z ; i++) {
+
+        this.listaword.push(i)
+
+      }
+
+      //modifica el array para revolver de manera aleatoria los valores
+      this.listaword = this.listaword.sort(function() {return Math.random() - 0.5});
+
+      console.log("sucedio")
+
+
+    }
+
+    //muestra el turno actual
+    console.log(this.turnword)
+    console.log(this.listaword)
+
   }
 
-  getRandomIntBox(max:any) {
-
-    this.wordbox = Math.floor(Math.random() * max);
-
-    //this.wordnumber =
-
-
-
-    /**while(this.numberword < 5){
-
-     /* this.wordbox = Math.floor(Math.random() * max);
-
-      if(this.wordnumber.includes(this.wordbox)){*/
-
-
-
-      /*}else{*/
-        //this.wordbox = Math.floor(Math.random() * max);
-       /* this.wordnumber.unshift(this.wordbox)
-        console.log(this.numberword)
-        this.numberword ++*/
-
-
-     /* }*/
-
-
-
-   /* }
-
-    console.log(this.wordnumber)*/
-
-
-  }
-
-  getRandomIntBox2(max:any,min:any) {
+  //funcion para llenar la respuestas
+  getRandomIntBox(max:any,min:any) {
 
     while(this.wordnumber.length < 4){
 
-       // this.wordbox2 = Math.floor(Math.random() * max);
-       this.wordbox2 = Math.floor(Math.random() * (max-min) + min);
+      this.wordbox2 = Math.floor(Math.random() * (max-min) + min);
 
-        if(!this.wordnumber.includes(this.wordbox2)){
+    //determina si entre las respuesta esta la correcta si no remplaza una respuesta.
+    if(!this.wordnumber.includes(this.wordbox2)){
 
           this.wordnumber.push(this.wordbox2)
-          this.wordstring.push(this.MemoriGame[this.wordbox2].English)
-
+          this.wordstring.push(this.MemoriGame[this.wordbox2].English!)
 
         }
 
     }
 
-    console.log(this.wordnumber)
+    if(!this.wordstring.includes(this.MemoriGame[this.word].English!)){
 
-    if(!this.wordstring.includes(this.MemoriGame[this.word].English)){
+        this.wordbox2 = Math.floor(Math.random() * 4);
+        this.wordnumber.splice(this.wordbox2,0,this.word)
 
-      this.wordbox2 = Math.floor(Math.random() * 4);
-      this.wordnumber.splice(this.wordbox2,0,this.word)
-      console.log("replace")
+
+      }
+
+
+
+
+
+
+  }
+
+
+  //muestra el resultado si se cliclea un la pregunta
+  ChangeWord(){
+
+    const RandonWord = document?.getElementById("RandonWord")?.textContent;
+
+    //RandonWord.innerHTML = this.MemoriGame[this.word].Espanol
+
+    if(RandonWord){
+
+      var RandonWord2 = new SpeechSynthesisUtterance(RandonWord)
+      var voices = window.speechSynthesis.getVoices()
+      //RandonWord2.voice = voices[6]
+      RandonWord2.lang = "en-US";
+      window.speechSynthesis.speak(RandonWord2)
+      //speechSynthesis.speak(new SpeechSynthesisUtterance(RandonWord2))
 
     }
 
 
-
-
   }
 
-
-
-  ChangeWord(){
-
-    const RandonWord: HTMLElement = document.getElementById('RandonWord') as HTMLElement
-
-   /* if(RandonWord.textContent == ''){
-
-
-    }*/
-
-    RandonWord.innerHTML = this.MemoriGame[this.word].Español
-
-  }
-
+  //funcion que muestra si la opcion seleccionada es la correcta o no
   TrueAnswer(id:string){
 
     const True = document.getElementById(id) as HTMLElement;
     const True2 = document?.getElementById(id)?.textContent;
-    const Answer = document?.getElementById("RandonWord")?.textContent;
+    const itemScoreplus: HTMLElement = document.getElementById('scoreplus') as HTMLElement
+    const itemScorenegative: HTMLElement = document.getElementById('scorenegative') as HTMLElement
 
 
 
-    if(True2 === this.MemoriGame[this.word].Español){
+
+
+    if(True2 === this.MemoriGame[this.word].Espanol){
 
       True.innerHTML =  "<span style='color: green;'>Correcto</span>";
       const box = document?.getElementById('questbox') as HTMLElement;
@@ -661,6 +700,8 @@ export class BuyPageComponent implements OnInit {
       box.style.display = 'none';
       box2.style.display = '';
       this.NewQuest();
+      this.scoreplus = this.scoreplus + 1
+      itemScoreplus.innerHTML = `${this.scoreplus}`
 
       setTimeout(()=>{
 
@@ -674,8 +715,8 @@ export class BuyPageComponent implements OnInit {
     }else{
 
       True.innerHTML =  "<span style='color: red;'>Incorrecto</span>";
-      //console.log(True2)
-      //console.log(Answer)
+      this.scorenegative = this.scorenegative + 1
+      itemScorenegative.innerHTML = `${this.scorenegative}`
 
     }
 
@@ -683,6 +724,7 @@ export class BuyPageComponent implements OnInit {
 
   }
 
+  //genera una nueva pregunta
   NewQuest(){
 
      this.word = 0;
@@ -696,31 +738,28 @@ export class BuyPageComponent implements OnInit {
     const RandonWord: HTMLElement = document.getElementById('RandonWord') as HTMLElement
 
     this.getRandomInt(this.maximo,this.minimo)
-    this.getRandomIntBox2(this.maximo,this.minimo)
+    this.getRandomIntBox(this.maximo,this.minimo)
 
-    RandonWord.innerHTML = /*`<h1`+ */ this.MemoriGame[this.word].English /* + `</h1>`*/
+    console.log(this.maximo +" "+ this.minimo)
+
+    RandonWord.innerHTML = this.MemoriGame[this.word].English!
 
     const item1: HTMLElement = document.getElementById('item1-q') as HTMLElement
     const item2: HTMLElement = document.getElementById('item2-q') as HTMLElement
     const item3: HTMLElement = document.getElementById('item3-q') as HTMLElement
     const item4: HTMLElement = document.getElementById('item4-q') as HTMLElement
 
+    item1.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[0]].Espanol}</span>`
+    item2.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[1]].Espanol}</span>`
+    item3.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[2]].Espanol}</span>`
+    item4.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[3]].Espanol}</span>`
 
 
-    //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item1.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[0]].Español}</span>`
 
-    //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item2.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[1]].Español}</span>`
-
-    //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item3.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[2]].Español}</span>`
-
-    //this.getRandomIntBox(Object.keys(this.MemoriGame).length)
-    item4.innerHTML = `<span style='color: black;'>${this.MemoriGame[this.wordnumber[3]].Español}</span>`
 
   }
 
+  //Dectecta que la se cargo un nuevo archivo
   incomingfile(event:any)
   {
   this.file= event.target.files[0];
@@ -730,7 +769,8 @@ export class BuyPageComponent implements OnInit {
     `<span>Archivo Cargado:&nbsp;</span>` + `<p style="color: green;margin-bottom: -1px;">✓</p>`
   }
 
- Upload() {
+  //Carga el archivo y lo cambierte en un objeto
+  Upload() {
       let fileReader = new FileReader();
         fileReader.onload = (e) => {
             this.arrayBuffer = fileReader.result;
@@ -743,83 +783,110 @@ export class BuyPageComponent implements OnInit {
             var worksheet = workbook.Sheets[first_sheet_name];
             console.log(XLSX.utils.sheet_to_json(worksheet,{raw:true}));
             this.MemoriGame = XLSX.utils.sheet_to_json(worksheet,{raw:true})
+
+            //tamaño del array
             this.MemoriGamesize = this.MemoriGame.length
 
-            this.DesdeN = 1
-            this.HastaN = this.MemoriGame.length
+            this.maxarray = this.MemoriGamesize
 
-            console.log("hola" + this.MemoriGame.length)
+            this.ChangeRandomNormal(1,this.MemoriGamesize)
 
-            this.changerandom2(1,this.MemoriGame.length)
+
+
+
 
         }
 
         fileReader.readAsArrayBuffer(this.file);
 
+
+
 }
 
-changerandom(){
+ChangeRandom(){
 
   const Desde: HTMLInputElement = document.getElementById('Desde') as HTMLInputElement
   const Hasta: HTMLInputElement = document.getElementById('Hasta') as HTMLInputElement
 
   const validationDesde: HTMLElement = document.getElementById('validationDesde') as HTMLElement
   const validation4: HTMLElement = document.getElementById('validation4') as HTMLElement
-  const validationHasta: HTMLElement = document.getElementById('validationHasta') as HTMLElement
 
    this.DesdeN = +Desde.value - 1
    this.HastaN = +Hasta.value
 
-  console.log(this.DesdeN)
-  console.log(this.HastaN)
+  if(((this.HastaN+1) - (this.DesdeN+1)) <= 3){
 
-  console.log(this.MemoriGame[this.DesdeN])
-  console.log(this.MemoriGame[this.HastaN])
+    console.log("el rango de datos no puede ser inferior a 4")
+    validation4.style.display = '';
+    console.log(((this.HastaN+1) - (this.DesdeN+1)))
 
-if(((this.HastaN+1) - (this.DesdeN+1)) <= 3){
+  }else if((this.DesdeN+1) == 0){
 
-  console.log("el rango de datos no puede ser inferior a 4")
-  validation4.style.display = '';
-  console.log(((this.HastaN+1) - (this.DesdeN+1)))
+    console.log("el valor minimo es uno")
+    validationDesde.style.display = '';
 
-}else if((this.DesdeN+1) == 0){
+  }else{
 
-  console.log("el valor minimo es uno")
-  validationDesde.style.display = '';
+    validation4.style.display = 'none';
+    validationDesde.style.display = 'none';
 
-}else{
+    this.minimo = this.DesdeN
+    this.maximo = this.HastaN
 
-  this.minimo = this.DesdeN
-  this.maximo = this.HastaN
+    console.log("correcto")
 
-  validation4.style.display = 'none';
-  validationDesde.style.display = 'none';
-
-  console.log("correcto")
-
-}
+    this.turnword = this.maximo-1
+    this.getRandomInt(this.maximo,this.minimo);
+    this.NewQuest()
 
 
+  }
 
-}
 
-changerandom2(Desde:number,Hasta:number){
-
-this.DesdeN = Desde - 1
-this.HastaN = Hasta
-
-if(((this.HastaN+1) - (this.DesdeN+1)) <= 3){
-
-}else if((this.DesdeN+1) == 0){
-
-}else{
-
-  this.minimo = this.DesdeN
-  this.maximo = this.HastaN
-
-  console.log("correcto")
 
 }
+
+ChangeRandomNormal(Desde:number,Hasta:number){
+
+
+  if(((Hasta) - (Desde)) <= 3){
+
+    console.log("error -3")
+
+  }else if((Desde) == 0){
+
+    console.log("error 0")
+
+  }else{
+
+
+
+    this.minimo = Desde-1
+    this.maximo = Hasta
+
+    console.log("correcto")
+
+    this.listaword = this.listaword.filter(word => word > (Hasta+1));
+
+    for (let i = 0; i < Hasta; i++) {
+
+      this.listaword.push(i)
+
+
+
+    }
+
+    console.log("sucedio 2")
+    this.listaword = this.listaword.sort(function() {return Math.random() - 0.5});
+
+    this.NewQuest()
+    this.turnword = 0
+
+
+
+
+
+  }
 
 
 

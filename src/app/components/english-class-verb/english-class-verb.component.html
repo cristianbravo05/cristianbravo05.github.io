@@ -1,0 +1,271 @@
+
+<body style="background-color: #90E0EF;width: 100%;height: auto;" >
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--display: none;-->
+  <div id="GameBox" style="text-transform: capitalize;">
+
+    <div id="pointBox">
+
+      <div class="hijo" >
+
+        <div class="containerz-cardz2 h3" style="height: 100px;">
+          <label class="hijo h1" id="resultadolabel" type="text" style="color: white;font-size:2.5em;text-align: center;margin-top: -20px;display: none;" >&nbsp;Resultado</label>
+         <div class="h3" id="marcadorlabel" style="margin-top: -10px;">
+          <label style="color: green;text-shadow: black 0.1em 0.1em 0.2em" >Aciertos: &nbsp;</label><label id="scoreplus" style="color: white;text-shadow: black 0.1em 0.1em 0.2em">0 </label>
+          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <label style="color: red;text-shadow: black 0.1em 0.1em 0.2em" >Errores: &nbsp;</label><label id="scorenegative" style="color: white;text-shadow: black 0.1em 0.1em 0.2em">0</label>
+        </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="hijo">
+      <div>
+        <div>
+          <div class="containerz-cardz bg-blue-box">
+
+                <div>
+                <div id="questbox" >
+                <div style="margin-bottom: -30px">
+                <div class="h2" style="margin-bottom: -30px;">
+                <label class="hijo" type="text" style="font-weight: bold;color: white;font-size:1.5em;text-align: center;margin-top: -20px;" id="RandonWord"  (click)="ChangeWord(1)">&nbsp;</label>
+                </div>
+                <br>
+
+                  <div class="grid-containerv-leftright">
+
+                    <div class="item1-ls h5">
+                      <label class="hijo h1" style="font-weight: bold;text-shadow:  0 0 5px black, 0 0 8px black; font-family: Times, Times New Roman, serif;color: rgb(206, 206, 206);font-size: 1.8em;" >Past</label>
+                      <label class="hijo" type="text" style="font-weight: bold;color: white;font-size:1.5em;text-align: center;" id="RandonWordPast"  (click)="ChangeWord(2)">&nbsp;</label>
+                    </div>
+                    <div class="item3-ms" ></div>
+                    <br>
+                    <div class="item2-rs h5">
+                    <label class="hijo h1" style="font-weight: bold;text-shadow:  0 0 5px black, 0 0 8px black; font-family: Times, Times New Roman, serif;color: rgb(206, 206, 206);font-size: 1.8em">Participle</label>
+                    <label class="hijo" type="text" style="font-weight: bold;color: white;font-size:1.5em;text-align: center;" id="RandonWordPart"  (click)="ChangeWord(3)">&nbsp;</label>
+                    </div>
+                  </div>
+
+                </div>
+                <br>
+                <h3>
+                <div class="hijo grid-containerquest h4" style="font-weight: bold;">
+                <div class="item1-q" >
+                <button class="button-54 button54-size" style="text-overflow: ellipsis; overflow: hidden;" type="button" id="item1-q" (click)="TrueAnswer('item1-q')"><p style="color: black;"></p></button>
+                </div>
+                <div class="item2-q">
+                <button class="button-54 button54-size" style="text-overflow: ellipsis; overflow: hidden;" type="button" id="item2-q" (click)="TrueAnswer('item2-q')"></button>
+                </div>
+                <div class="item3-q">
+                <button class="button-54 button54-size" style="text-overflow: ellipsis; overflow: hidden;" type="button" id="item3-q" (click)="TrueAnswer('item3-q')"></button>
+                </div>
+                <div class="item4-q">
+                <button class="button-54 button54-size" style="text-overflow: ellipsis; overflow: hidden;" type="button" id="item4-q" (click)="TrueAnswer('item4-q')"></button>
+                </div>
+                </div>
+                </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <h4>
+
+                <div class="hijo" style="margin-top: -60px;">
+
+                  <button class="button-54 NuevaPreguntaBtn h4" type="button" id="item5-q" (click)="NewQuest()"></button>
+
+                </div>
+
+                </h4>
+                </div>
+
+                <!--<button type="button" (click)="NewRound()">Res</button>
+                <button type="button" (click)="NewRound2()">Hid Res</button> display: none;-->
+
+
+                <div class="hijo" id="resultbox" style="display: none;">
+                  <diV class="resultbox">
+                  <h1>
+                  <label type="text" style="color: white;font-size:1.5em" id="RandonWord"></label>
+                  </h1>
+
+                  <div class="containerz-cardz3" >
+                    <div style="height: 300px;width: 500px;">
+                    <diV class="hijo">
+                      <h3 style="margin-top: 40px;">
+                      <label style="color: green;text-shadow: black 0.1em 0.1em 0.2em" >Aciertos: &nbsp;</label><label id="scoreplusR" style="color: white;text-shadow: black 0.1em 0.1em 0.2em">&nbsp;0</label>
+                      <br>
+                      <br>
+                      <label style="color: red;text-shadow: black 0.1em 0.1em 0.2em" >Errores: &nbsp;</label><label id="scorenegativeR" style="color: white;text-shadow: black 0.1em 0.1em 0.2em">&nbsp;&nbsp;&nbsp;0</label>
+                      </h3>
+                    </diV>
+                    </div>
+                   </div>
+
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+                  <h4>
+
+                      <div class="hijo">
+                      <button class="button-54 NuevaPreguntaBtn2" type="button" id="item5-q" (click)="NewRound2()">Nueva Ronda</button>
+                      </div>
+
+
+
+                  </h4>
+                 </diV>
+                </div>
+
+
+                <br>
+
+                <div class="container" id="imagecorrect" style="display: none;height: 500px;" >
+                  <div class="zoom-in-zoom-out center">
+                  <img width= "300px"  style="margin-left: -150px;margin-bottom: -250px;" src="assets/CorrectIcon.png">
+                  </div>
+                </div>
+
+                </div>
+
+              </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="hijo">
+
+    <form class="HastaDesde" >
+
+      <div class="blog-card spring-fever">
+
+        <div style="margin-top: 20px;">
+          <div class="DesdeHastaSize">
+            <div class="h5">
+          <label for="Desde" style="margin-right: 370px;font-weight: bold;">Desde:</label>
+            </div>
+          </div>
+          <label for="Desde">&nbsp;</label>
+          <input type="number" id="Desde"  name="fname" b style="text-indent: 10px;background-color: white;"><br><br>
+
+          <div id="validationDesde" style="margin-top: -25px;margin-bottom: -25px;text-align: left;margin-left: 35px;display: none;">
+          <label style="color: white;text-transform: none;" for="Desde">el valor minimo es 1</label>
+          <br>
+          <br>
+          </div>
+
+          <div class="DesdeHastaSize">
+            <div class="h5">
+          <label for="Hasta" style="margin-right: 370px;font-weight: bold;">Hasta:</label>
+            </div>
+          </div>
+
+          <label for="Desde">&nbsp;</label>
+          <input type="number" id="Hasta" name="lname" style="text-indent: 10px;background-color: white;"><br><br>
+
+          <div id="validation4" style="margin-left: 35px; margin-top: -25px;margin-bottom: -25px;width: 500px;text-align: left;display: none;">
+          <label style="color:  white; text-transform: none;" for="Desde">el rango de datos no puede ser inferior a 4</label>
+          <br>
+          <br>
+          </div>
+          <div id="validation5" style="margin-left: 35px; margin-top: -25px;margin-bottom: -25px;width: 500px;text-align: left;display: none;">
+            <label style="color:  white; text-transform: none;" for="Desde">el valor maximo no puede ser mayor al numero de datos</label>
+            <br>
+            <br>
+          </div>
+        </div>
+
+        <br>
+        <button class="button-50" type="button" style="margin-left: 250px;" (click)="ChangeRandom()">Cambiar</button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+    <div class="hijo" style="margin-top: 20px;">
+      <div class="uploadfilebox grid-containerUploadFile" style="margin-top: 30px;">
+        <label class="input-group-text uploadfile item1-Up" for="inputGroupFile">&nbsp;&nbsp;Seleccionar archivo excel</label>
+        <br class="brfileupt">
+        <br class="brfileupt">
+        <label class="input-group-text uploadfile item2-Up " id="FileUploaded">&nbsp;&nbsp;Archivo No Cargado:&nbsp;<p id="correcto" style="color: red;margin-bottom: -2px;">X</p></label>
+        <input type="file" id="inputGroupFile" style="display: inline-block;visibility:hidden;" (change)="incomingfile($event)" accept=".xlsx">
+        <div class="h3">
+        <button class="btnCargar btn btn-info item3-Up h3" type="button" (click)="Upload()">Cargar</button>
+        </div>
+      </div>
+      </div>
+
+  <br>
+  <br>
+  <br>
+
+  </div>
+
+  <div class="hijo table100 ver2" id="tableWords" style="display: none;">
+
+    <div class="hijo">
+
+      <div class="containerz-cardz2">
+        <button class="h2 button-56 NuevaPreguntaBtn ListBtn hijo" style="width: 600px;" (click)="chargeTableOff()" ><p style="margin-bottom: 10px;font-size: 40px;text-transform: none;">Volver al Juego</p></button>
+      </div>
+
+    </div>
+
+    <table data-vertable="ver2" class="table rounded-corners taco" id="buyerTable" style="color: white;width: 700px;margin-top: 200px;">
+
+        <tr>
+          <tr style="background-color: white; color: black;">
+            <th style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #023E8A;font-size: 25px;text-transform: uppercase;text-shadow: 2px 2px #00B4D8;">English</th>
+            <th style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #023E8A;font-size: 25px;text-transform: uppercase;text-shadow: 2px 2px #00B4D8;">Past</th>
+            <th style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #023E8A;font-size: 25px;text-transform: uppercase;text-shadow: 2px 2px #00B4D8;">Participle</th>
+            <th style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #023E8A;font-size: 25px;text-transform: uppercase;text-shadow: 2px 2px #00B4D8;">Español</th>
+          </tr>
+          <br>
+        <ng-container *ngFor="let word of MemoriGame" class="avatar-list">
+        <tr class="row100" style="border:3px solid #CAF0F8;margin-top: 10px;">
+          <td scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #CAF0F8;background-color: #03045E;">{{word.verbo}}</td>
+          <td scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #CAF0F8;background-color: #0077B6;">{{word.pasado}}</td>
+          <td scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #CAF0F8;background-color: #0077B6;">{{word.participio}}</td>
+          <td scope="row" style="text-align: center;padding: 20px;text-transform: capitalize;font-weight: bold;border:3px solid #CAF0F8;background-color: #0077B6;">{{word.espanol}}</td>
+        </tr>
+        </ng-container>
+
+    </table>
+    <br>
+
+
+
+</div>
+
+    <div class="hijo" id="tableBtn">
+
+      <div class="containerz-cardz2" style="margin-top: -370px;">
+        <button class="h2 button-56 NuevaPreguntaBtn ListBtn hijo" style="width: 100px;" (click)="chargeTableOn()" ><p style="margin-bottom: 10px;font-size: 40px;">📋</p></button>
+      </div>
+
+    </div>
+
+</body>

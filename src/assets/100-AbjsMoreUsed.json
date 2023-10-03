@@ -1,0 +1,398 @@
+[
+ {
+  "English": "daily",
+  "Espanol": "a diario"
+ },
+ {
+  "English": "long-term",
+  "Espanol": "a largo plazo"
+ },
+ {
+  "English": "bottom",
+  "Espanol": "abajo"
+ },
+ {
+  "English": "open",
+  "Espanol": "abierto"
+ },
+ {
+  "English": "absolute",
+  "Espanol": "absoluto"
+ },
+ {
+  "English": "academic",
+  "Espanol": "académico"
+ },
+ {
+  "English": "active",
+  "Espanol": "activo"
+ },
+ {
+  "English": "actual",
+  "Espanol": "actual"
+ },
+ {
+  "English": "current",
+  "Espanol": "actual"
+ },
+ {
+  "English": "appropriate",
+  "Espanol": "adecuado"
+ },
+ {
+  "English": "proper",
+  "Espanol": "adecuado"
+ },
+ {
+  "English": "additional",
+  "Espanol": "adicional"
+ },
+ {
+  "English": "wealthy",
+  "Espanol": "adinerado"
+ },
+ {
+  "English": "sharp",
+  "Espanol": "afilado"
+ },
+ {
+  "English": "true",
+  "Espanol": "afirmativo"
+ },
+ {
+  "English": "lucky",
+  "Espanol": "afortunado"
+ },
+ {
+  "English": "outside",
+  "Espanol": "afuera"
+ },
+ {
+  "English": "aggressive",
+  "Espanol": "agresivo"
+ },
+ {
+  "English": "agricultural",
+  "Espanol": "agrícola"
+ },
+ {
+  "English": "tight",
+  "Espanol": "ajustado"
+ },
+ {
+  "English": "alternative",
+  "Espanol": "alternativa"
+ },
+ {
+  "English": "high",
+  "Espanol": "alto"
+ },
+ {
+  "English": "loud",
+  "Espanol": "alto"
+ },
+ {
+  "English": "tall",
+  "Espanol": "alto"
+ },
+ {
+  "English": "yellow",
+  "Espanol": "amarillo"
+ },
+ {
+  "English": "environmental",
+  "Espanol": "ambiental"
+ },
+ {
+  "English": "friendly",
+  "Espanol": "amigable"
+ },
+ {
+  "English": "broad",
+  "Espanol": "amplio"
+ },
+ {
+  "English": "wide",
+  "Espanol": "ancho"
+ },
+ {
+  "English": "elderly",
+  "Espanol": "anciano"
+ },
+ {
+  "English": "narrow",
+  "Espanol": "angosto"
+ },
+ {
+  "English": "eager",
+  "Espanol": "ansioso"
+ },
+ {
+  "English": "previous",
+  "Espanol": "anterior"
+ },
+ {
+  "English": "ancient",
+  "Espanol": "antiguo"
+ },
+ {
+  "English": "annual",
+  "Espanol": "anual"
+ },
+ {
+  "English": "apparent",
+  "Espanol": "aparente"
+ },
+ {
+  "English": "armed",
+  "Espanol": "armado"
+ },
+ {
+  "English": "top",
+  "Espanol": "arriba"
+ },
+ {
+  "English": "joint",
+  "Espanol": "articulación"
+ },
+ {
+  "English": "artistic",
+  "Espanol": "artístico"
+ },
+ {
+  "English": "so-called",
+  "Espanol": "así llamado"
+ },
+ {
+  "English": "assistant",
+  "Espanol": "asistente"
+ },
+ {
+  "English": "amazing",
+  "Espanol": "asombroso"
+ },
+ {
+  "English": "afraid",
+  "Espanol": "asustado"
+ },
+ {
+  "English": "scared",
+  "Espanol": "asustado"
+ },
+ {
+  "English": "athletic",
+  "Espanol": "atlético"
+ },
+ {
+  "English": "attractive",
+  "Espanol": "atractivo"
+ },
+ {
+  "English": "increased",
+  "Espanol": "aumentó"
+ },
+ {
+  "English": "still",
+  "Espanol": "aún"
+ },
+ {
+  "English": "advanced",
+  "Espanol": "avanzado"
+ },
+ {
+  "English": "blue",
+  "Espanol": "azul"
+ },
+ {
+  "English": "low",
+  "Espanol": "bajo"
+ },
+ {
+  "English": "cheap",
+  "Espanol": "barato"
+ },
+ {
+  "English": "basic",
+  "Espanol": "básico"
+ },
+ {
+  "English": "essential",
+  "Espanol": "básico"
+ },
+ {
+  "English": "fine",
+  "Espanol": "bien"
+ },
+ {
+  "English": "good",
+  "Espanol": "bien"
+ },
+ {
+  "English": "right",
+  "Espanol": "bien"
+ },
+ {
+  "English": "biological",
+  "Espanol": "biológico"
+ },
+ {
+  "English": "white",
+  "Espanol": "blanco"
+ },
+ {
+  "English": "pretty",
+  "Espanol": "bonito"
+ },
+ {
+  "English": "brief",
+  "Espanol": "breve"
+ },
+ {
+  "English": "bright",
+  "Espanol": "brillante"
+ },
+ {
+  "English": "brilliant",
+  "Espanol": "brillante"
+ },
+ {
+  "English": "rough",
+  "Espanol": "bruto"
+ },
+ {
+  "English": "warm",
+  "Espanol": "cálido"
+ },
+ {
+  "English": "hot",
+  "Espanol": "caliente"
+ },
+ {
+  "English": "tired",
+  "Espanol": "cansado"
+ },
+ {
+  "English": "able",
+  "Espanol": "capaz"
+ },
+ {
+  "English": "capable",
+  "Espanol": "capaz"
+ },
+ {
+  "English": "expensive",
+  "Espanol": "caro"
+ },
+ {
+  "English": "married",
+  "Espanol": "casado"
+ },
+ {
+  "English": "central",
+  "Espanol": "central"
+ },
+ {
+  "English": "downtown",
+  "Espanol": "centro"
+ },
+ {
+  "English": "close",
+  "Espanol": "cerca"
+ },
+ {
+  "English": "closer",
+  "Espanol": "cerca"
+ },
+ {
+  "English": "nearby",
+  "Espanol": "cercano"
+ },
+ {
+  "English": "blind",
+  "Espanol": "ciego"
+ },
+ {
+  "English": "scientific",
+  "Espanol": "científico"
+ },
+ {
+  "English": "certain",
+  "Espanol": "cierto"
+ },
+ {
+  "English": "civil",
+  "Espanol": "civil"
+ },
+ {
+  "English": "civilian",
+  "Espanol": "civil"
+ },
+ {
+  "English": "clear",
+  "Espanol": "claro"
+ },
+ {
+  "English": "classic",
+  "Espanol": "clásico"
+ },
+ {
+  "English": "clinical",
+  "Espanol": "clínico"
+ },
+ {
+  "English": "consistent",
+  "Espanol": "coherente"
+ },
+ {
+  "English": "commercial",
+  "Espanol": "comercial"
+ },
+ {
+  "English": "like",
+  "Espanol": "como"
+ },
+ {
+  "English": "comfortable",
+  "Espanol": "cómodo"
+ },
+ {
+  "English": "fellow",
+  "Espanol": "compañero"
+ },
+ {
+  "English": "competitive",
+  "Espanol": "competitivo"
+ },
+ {
+  "English": "complex",
+  "Espanol": "complejo"
+ },
+ {
+  "English": "complete",
+  "Espanol": "completo"
+ },
+ {
+  "English": "entire",
+  "Espanol": "completo"
+ },
+ {
+  "English": "complicated",
+  "Espanol": "complicado"
+ },
+ {
+  "English": "common",
+  "Espanol": "común"
+ },
+ {
+  "English": "ordinary",
+  "Espanol": "común"
+ },
+ {
+  "English": "aware",
+  "Espanol": "consciente"
+ },
+ {
+  "English": "conservative",
+  "Espanol": "conservador"
+ }
+]

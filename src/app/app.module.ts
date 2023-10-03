@@ -27,6 +27,27 @@ import { ArraySortPipe } from './array-sort-pipe.pipe';
 import { ProductBuyComponent } from './components/product-buy/product-buy.component';
 import { BuyPageComponent } from './components/buy-page/buy-page.component';
 import { SafeHtmlPipe } from './safe-html.pipe';
+import { EnglishClassComponent } from './components/english-class/english-class.component';
+import { ExcelService } from './components/create-table//excel.service';
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatButtonModule } from '@angular/material/button';
+import { EnglishListComponent } from './components/english-list/english-list.component';
+import { EnglishTableComponent } from './components/english-table/english-table.component';
+import { CreateTableComponent } from './components/create-table/create-table.component';
+import { ListeningGameComponent } from './components/listening-game/listening-game.component';
+import { EnglishListVerbComponent } from './components/english-list-verb/english-list-verb.component';
+import { EnglishClassVerbComponent } from './components/english-class-verb/english-class-verb.component';
+import { EnglishTableVerbComponent } from './components/english-table-verb/english-table-verb.component';
+import { EnglishListItemComponent } from './components/english-list-item/english-list-item.component';
+import { EnglishListConnectorsComponent } from './components/english-list-connectors/english-list-connectors.component';
+import { EnglishListAdjectiveComponent } from './components/english-list-adjective/english-list-adjective.component';
+import { ProductCreatorComponent } from './components/product-creator/product-creator.component';
+import { PruebaComponent } from './components/prueba/prueba.component';
+import { SellerCreatorComponent } from './components/seller-creator/seller-creator.component';
 
 
 @NgModule({
@@ -43,8 +64,19 @@ import { SafeHtmlPipe } from './safe-html.pipe';
     ArraySortPipe,
     ProductBuyComponent,
     BuyPageComponent,
-    SafeHtmlPipe
-  ],
+    SafeHtmlPipe,
+    EnglishClassComponent,
+    EnglishListComponent,
+    EnglishTableComponent,
+    CreateTableComponent,
+    ListeningGameComponent,
+    EnglishListVerbComponent,
+    EnglishClassVerbComponent,
+    EnglishTableVerbComponent,
+    EnglishListItemComponent,
+    EnglishListConnectorsComponent,
+    EnglishListAdjectiveComponent
+  , ProductCreatorComponent, PruebaComponent, SellerCreatorComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -58,11 +90,18 @@ import { SafeHtmlPipe } from './safe-html.pipe';
     TiendaComponent,
     RouterModule,
     FormsModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatGridListModule,
+    MatDividerModule,
+    MatButtonModule,
+
 
 
 
   ],
-  providers: [],
+  providers: [ExcelService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

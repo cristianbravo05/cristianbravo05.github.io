@@ -70,6 +70,26 @@
 
 <div style="text-transform: capitalize;">
 
+  <div class="containerz">
+
+    <div class="gradient-cardsz" style="margin-bottom: 45px;margin-left: 30%;">
+
+    <div class="cardz" >
+
+      <div class="containerz-cardz" style="height: 100px;">
+    <h3 style="margin-top: -10px;">
+        <label style="color: green;text-shadow: black 0.1em 0.1em 0.2em" >Aciertos: &nbsp;</label><label id="scoreplus" style="color: white;text-shadow: black 0.1em 0.1em 0.2em">0 </label>
+        <label>&nbsp;&nbsp;&nbsp;</label>
+        <label style="color: red;text-shadow: black 0.1em 0.1em 0.2em" >Errores: &nbsp;</label><label id="scorenegative" style="color: white;text-shadow: black 0.1em 0.1em 0.2em">0</label>
+    </h3>
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
   <div class="containerz" >
     <div class="gradient-cardsz" style="margin-left: 60px;">
       <div class="cardz" >
@@ -214,7 +234,7 @@
     </div>
 
     <br>
-    <button class="button-50" type="button" style="margin-left: 250px;" (click)="changerandom()">Cambiar</button>
+    <button class="button-50" type="button" style="margin-left: 250px;" (click)="ChangeRandom()">Cambiar</button>
 
   </div>
 
@@ -225,11 +245,11 @@
 
 <h3>
 <div class="container" style="margin-top: 300px;">
-  <div class="center" style="width: 600px;margin-left: -5px;" >
-    <label for="inputGroupFile" class="input-group-text" style="height: 55px;font-size: 22px;">Seleccionar archivo excel</label>
-    <label class="input-group-text" id="FileUploaded" style="height: 55px;">Archivo No Cargado:&nbsp;<p id="correcto" style="color: red;margin-bottom: -2px;">X</p></label>
+  <div class="center" style="width: 600px;margin-left: -5px;">
+    <label for="inputGroupFile" class="input-group-text" style="width: 400px;height: 55px;font-size: 22px;">Seleccionar archivo excel</label>
+    <label class="input-group-text" id="FileUploaded" style="width: 400px;height: 55px;">Archivo No Cargado:&nbsp;<p id="correcto" style="color: red;margin-bottom: -2px;">X</p></label>
     <input type="file" id="inputGroupFile" style="display: inline-block;visibility:hidden;" (change)="incomingfile($event)" accept=".xlsx">
-    <button type="button" class="btn btn-info" style="width: 200px;height: 110px; margin-left: -115px;margin-top: -159px;font-size: 0.8em;padding-bottom: 10px;" (click)="Upload()">Cargar</button>
+    <button type="button" class="btn btn-info" style="width: 180px;height: 120px; margin-left: -115px;margin-top: -159px;font-size: 0.8em;padding-bottom: 10px;" (click)="Upload()">Cargar</button>
   </div>
 </div>
 </h3>

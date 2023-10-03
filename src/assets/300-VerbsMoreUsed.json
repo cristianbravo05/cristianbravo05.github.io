@@ -1,0 +1,602 @@
+[
+ {
+  "verbo": "fight",
+  "pasado": "fought",
+  "participio": "fought",
+  "espanol": "luchar"
+ },
+ {
+  "verbo": "figure",
+  "pasado": "figured",
+  "participio": "figured",
+  "espanol": "cifra"
+ },
+ {
+  "verbo": "file",
+  "pasado": "filed",
+  "participio": "filed",
+  "espanol": "archivo"
+ },
+ {
+  "verbo": "fill",
+  "pasado": "filled",
+  "participio": "filled",
+  "espanol": "llenar"
+ },
+ {
+  "verbo": "find",
+  "pasado": "Found",
+  "participio": "Found",
+  "espanol": "encontrar"
+ },
+ {
+  "verbo": "finish",
+  "pasado": "finished",
+  "participio": "finished",
+  "espanol": "finalizar"
+ },
+ {
+  "verbo": "fire",
+  "pasado": "fired",
+  "participio": "fired",
+  "espanol": "fuego"
+ },
+ {
+  "verbo": "fit",
+  "pasado": "fitted",
+  "participio": "fitted",
+  "espanol": "adaptar"
+ },
+ {
+  "verbo": "fix",
+  "pasado": "fixed",
+  "participio": "fixed",
+  "espanol": "arreglar"
+ },
+ {
+  "verbo": "Flee",
+  "pasado": "Fled",
+  "participio": "Fled",
+  "espanol": "Huir"
+ },
+ {
+  "verbo": "fly",
+  "pasado": "flew",
+  "participio": "flown",
+  "espanol": "volar"
+ },
+ {
+  "verbo": "focus",
+  "pasado": "focused",
+  "participio": "focused",
+  "espanol": "enfocar"
+ },
+ {
+  "verbo": "follow",
+  "pasado": "followed",
+  "participio": "followed",
+  "espanol": "seguir"
+ },
+ {
+  "verbo": "Forbid",
+  "pasado": "Forbade",
+  "participio": "Forbidden",
+  "espanol": "Prohibir"
+ },
+ {
+  "verbo": "force",
+  "pasado": "forced",
+  "participio": "forced",
+  "espanol": "fuerza"
+ },
+ {
+  "verbo": "Forecast",
+  "pasado": "Forecast",
+  "participio": "Forecast",
+  "espanol": "Pronosticar(Time)"
+ },
+ {
+  "verbo": "forget",
+  "pasado": "forgot",
+  "participio": "forgotten",
+  "espanol": "olvidar"
+ },
+ {
+  "verbo": "Forgive",
+  "pasado": "Forgave",
+  "participio": "Forgiven",
+  "espanol": "Perdonar"
+ },
+ {
+  "verbo": "form",
+  "pasado": "formed",
+  "participio": "formed",
+  "espanol": "forma"
+ },
+ {
+  "verbo": "Forsake",
+  "pasado": "Forsook",
+  "participio": "Forsaken",
+  "espanol": "Abandonar"
+ },
+ {
+  "verbo": "Freeze",
+  "pasado": "Froze",
+  "participio": "Frozen",
+  "espanol": "Congelar"
+ },
+ {
+  "verbo": "gain",
+  "pasado": "gained",
+  "participio": "gained",
+  "espanol": "ganar"
+ },
+ {
+  "verbo": "gather",
+  "pasado": "gathered",
+  "participio": "gathered",
+  "espanol": "recolectar"
+ },
+ {
+  "verbo": "generate",
+  "pasado": "generated",
+  "participio": "generated",
+  "espanol": "generar"
+ },
+ {
+  "verbo": "get",
+  "pasado": "Got",
+  "participio": "Got\/ Gotten",
+  "espanol": "conseguir"
+ },
+ {
+  "verbo": "give",
+  "pasado": "Gave",
+  "participio": "Given",
+  "espanol": "dar"
+ },
+ {
+  "verbo": "go",
+  "pasado": "Went",
+  "participio": "Gone",
+  "espanol": "ir"
+ },
+ {
+  "verbo": "grab",
+  "pasado": "grabbed",
+  "participio": "grabbed",
+  "espanol": "agarrar"
+ },
+ {
+  "verbo": "grant",
+  "pasado": "granted",
+  "participio": "granted",
+  "espanol": "conceder"
+ },
+ {
+  "verbo": "Grind",
+  "pasado": "Ground",
+  "participio": "Ground",
+  "espanol": "Moler"
+ },
+ {
+  "verbo": "grow",
+  "pasado": "grew",
+  "participio": "grown",
+  "espanol": "crecer"
+ },
+ {
+  "verbo": "guess",
+  "pasado": "guessed",
+  "participio": "guessed",
+  "espanol": "adivinar"
+ },
+ {
+  "verbo": "hand",
+  "pasado": "handed",
+  "participio": "handed",
+  "espanol": "pasar"
+ },
+ {
+  "verbo": "handle",
+  "pasado": "handled",
+  "participio": "handled",
+  "espanol": "manejar"
+ },
+ {
+  "verbo": "hang",
+  "pasado": "hung",
+  "participio": "hung",
+  "espanol": "colgar"
+ },
+ {
+  "verbo": "happen",
+  "pasado": "happened",
+  "participio": "happened",
+  "espanol": "suceder"
+ },
+ {
+  "verbo": "hate",
+  "pasado": "hated",
+  "participio": "hated",
+  "espanol": "odiar"
+ },
+ {
+  "verbo": "have",
+  "pasado": "Had",
+  "participio": "Had",
+  "espanol": "tener"
+ },
+ {
+  "verbo": "head",
+  "pasado": "headed",
+  "participio": "headed",
+  "espanol": "cabeza"
+ },
+ {
+  "verbo": "hear",
+  "pasado": "heard",
+  "participio": "heard",
+  "espanol": "escuchar"
+ },
+ {
+  "verbo": "help",
+  "pasado": "helped",
+  "participio": "helped",
+  "espanol": "ayuda"
+ },
+ {
+  "verbo": "hide",
+  "pasado": "hid",
+  "participio": "hidden",
+  "espanol": "esconder"
+ },
+ {
+  "verbo": "hire",
+  "pasado": "hired",
+  "participio": "hired",
+  "espanol": "contratar"
+ },
+ {
+  "verbo": "hit",
+  "pasado": "hit",
+  "participio": "hit",
+  "espanol": "golpear"
+ },
+ {
+  "verbo": "hold",
+  "pasado": "held",
+  "participio": "held",
+  "espanol": "sostener"
+ },
+ {
+  "verbo": "hope",
+  "pasado": "hoped",
+  "participio": "hoped",
+  "espanol": "esperanza"
+ },
+ {
+  "verbo": "hurt",
+  "pasado": "hurt",
+  "participio": "hurt",
+  "espanol": "herir"
+ },
+ {
+  "verbo": "identify",
+  "pasado": "identified",
+  "participio": "identified",
+  "espanol": "identificar"
+ },
+ {
+  "verbo": "ignore",
+  "pasado": "ignored",
+  "participio": "ignored",
+  "espanol": "ignorar"
+ },
+ {
+  "verbo": "illustrate",
+  "pasado": "illustrated",
+  "participio": "illustrated",
+  "espanol": "ilustrar"
+ },
+ {
+  "verbo": "imagine",
+  "pasado": "imagined",
+  "participio": "imagined",
+  "espanol": "imaginar"
+ },
+ {
+  "verbo": "implement",
+  "pasado": "implemented",
+  "participio": "implemented",
+  "espanol": "implementar"
+ },
+ {
+  "verbo": "impose",
+  "pasado": "imposed",
+  "participio": "imposed",
+  "espanol": "imponer"
+ },
+ {
+  "verbo": "improve",
+  "pasado": "improved",
+  "participio": "improved",
+  "espanol": "mejorar"
+ },
+ {
+  "verbo": "include",
+  "pasado": "included",
+  "participio": "included",
+  "espanol": "incluir"
+ },
+ {
+  "verbo": "increase",
+  "pasado": "increased",
+  "participio": "increased",
+  "espanol": "aumentar"
+ },
+ {
+  "verbo": "indicate",
+  "pasado": "indicated",
+  "participio": "indicated",
+  "espanol": "indicar"
+ },
+ {
+  "verbo": "influence",
+  "pasado": "influenced",
+  "participio": "influenced",
+  "espanol": "influencia"
+ },
+ {
+  "verbo": "inform",
+  "pasado": "informed",
+  "participio": "informed",
+  "espanol": "informar"
+ },
+ {
+  "verbo": "Input",
+  "pasado": "Input",
+  "participio": "Input",
+  "espanol": "Entrar(dato)"
+ },
+ {
+  "verbo": "insist",
+  "pasado": "insisted",
+  "participio": "insisted",
+  "espanol": "insistir"
+ },
+ {
+  "verbo": "inspire",
+  "pasado": "inspired",
+  "participio": "inspired",
+  "espanol": "inspirar"
+ },
+ {
+  "verbo": "intend",
+  "pasado": "intended",
+  "participio": "intended",
+  "espanol": "pretender"
+ },
+ {
+  "verbo": "interview",
+  "pasado": "interviewed",
+  "participio": "interviewed",
+  "espanol": "entrevista"
+ },
+ {
+  "verbo": "introduce",
+  "pasado": "introduced",
+  "participio": "introduced",
+  "espanol": "introducir"
+ },
+ {
+  "verbo": "invest",
+  "pasado": "invested",
+  "participio": "invested",
+  "espanol": "invertir"
+ },
+ {
+  "verbo": "investigate",
+  "pasado": "investigated",
+  "participio": "investigated",
+  "espanol": "investigar"
+ },
+ {
+  "verbo": "invite",
+  "pasado": "invited",
+  "participio": "invited",
+  "espanol": "invitar"
+ },
+ {
+  "verbo": "involve",
+  "pasado": "involved",
+  "participio": "involved",
+  "espanol": "involucrar"
+ },
+ {
+  "verbo": "issue",
+  "pasado": "issued",
+  "participio": "issued",
+  "espanol": "asunto"
+ },
+ {
+  "verbo": "join",
+  "pasado": "joined",
+  "participio": "joined",
+  "espanol": "unirse"
+ },
+ {
+  "verbo": "judge",
+  "pasado": "judged",
+  "participio": "judged",
+  "espanol": "juez"
+ },
+ {
+  "verbo": "jump",
+  "pasado": "jumped",
+  "participio": "jumped",
+  "espanol": "saltar"
+ },
+ {
+  "verbo": "keep",
+  "pasado": "kept",
+  "participio": "kept",
+  "espanol": "mantener"
+ },
+ {
+  "verbo": "kick",
+  "pasado": "kicked",
+  "participio": "kicked",
+  "espanol": "patada"
+ },
+ {
+  "verbo": "kill",
+  "pasado": "killed",
+  "participio": "killed",
+  "espanol": "matar"
+ },
+ {
+  "verbo": "kiss",
+  "pasado": "kissed",
+  "participio": "kissed",
+  "espanol": "beso"
+ },
+ {
+  "verbo": "Kneel",
+  "pasado": "Knelt",
+  "participio": "Knelt",
+  "espanol": "Arrodillarse"
+ },
+ {
+  "verbo": "Knit",
+  "pasado": "Knit",
+  "participio": "Knit",
+  "espanol": "Tejer"
+ },
+ {
+  "verbo": "knock",
+  "pasado": "knocked",
+  "participio": "knocked",
+  "espanol": "golpear"
+ },
+ {
+  "verbo": "know",
+  "pasado": "Knew",
+  "participio": "Known",
+  "espanol": "saber"
+ },
+ {
+  "verbo": "lack",
+  "pasado": "lacked",
+  "participio": "lacked",
+  "espanol": "falta"
+ },
+ {
+  "verbo": "land",
+  "pasado": "landed",
+  "participio": "landed",
+  "espanol": "tierra"
+ },
+ {
+  "verbo": "last",
+  "pasado": "lasted",
+  "participio": "lasted",
+  "espanol": "último"
+ },
+ {
+  "verbo": "laugh",
+  "pasado": "laughed",
+  "participio": "laughed",
+  "espanol": "reír"
+ },
+ {
+  "verbo": "launch",
+  "pasado": "launched",
+  "participio": "launched",
+  "espanol": "lanzamiento"
+ },
+ {
+  "verbo": "lay",
+  "pasado": "laid",
+  "participio": "laid",
+  "espanol": "poner"
+ },
+ {
+  "verbo": "lead",
+  "pasado": "led",
+  "participio": "led",
+  "espanol": "dirigir"
+ },
+ {
+  "verbo": "lean",
+  "pasado": "leant",
+  "participio": "leant",
+  "espanol": "inclinarse"
+ },
+ {
+  "verbo": "Leap",
+  "pasado": "Leapt",
+  "participio": "Leapt",
+  "espanol": "Saltar"
+ },
+ {
+  "verbo": "learn",
+  "pasado": "learnt",
+  "participio": "learnt",
+  "espanol": "aprender"
+ },
+ {
+  "verbo": "leave",
+  "pasado": "left",
+  "participio": "left",
+  "espanol": "dejar"
+ },
+ {
+  "verbo": "Lend",
+  "pasado": "Lent",
+  "participio": "Lent",
+  "espanol": "Prestar"
+ },
+ {
+  "verbo": "let",
+  "pasado": "let",
+  "participio": "let",
+  "espanol": "dejar"
+ },
+ {
+  "verbo": "lie",
+  "pasado": "lay",
+  "participio": "lain",
+  "espanol": "mentir"
+ },
+ {
+  "verbo": "Lie(2)",
+  "pasado": "Lay",
+  "participio": "Lain",
+  "espanol": "Acostarse"
+ },
+ {
+  "verbo": "lift",
+  "pasado": "lifted",
+  "participio": "lifted",
+  "espanol": "elevar"
+ },
+ {
+  "verbo": "Light",
+  "pasado": "Lit",
+  "participio": "Lit",
+  "espanol": "Encender"
+ },
+ {
+  "verbo": "like",
+  "pasado": "liked",
+  "participio": "liked",
+  "espanol": "como"
+ },
+ {
+  "verbo": "limit",
+  "pasado": "limited",
+  "participio": "limited",
+  "espanol": "límite"
+ }
+]

@@ -5,12 +5,23 @@
   box-sizing: border-box;
 }
 
+.hijo {
+  display: grid;
+  place-items: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body{
 
   /*background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);*/
-  background: var(--blackredlack90);
+  /*background: #457B9D;*/
+  /*background: radial-gradient(#A8DADC,#457B9D);*/
   /*min-height: 100vh;*/
-  min-height: 100%;
+  background: white;
 
 }
 
@@ -22,7 +33,8 @@ div{
 
 p,FONT,H2{
 
-  color: var(--white);
+  /*color: var(--white);*/
+  color: black;
 
 }
 
@@ -166,15 +178,9 @@ ngb-rating {
 
       .grid-containerv4 {
         display: grid;
-       /* grid-template-areas:
-        'image title'
-         'price texto';*/
         grid-template-areas:
-        'image1'
-        'image2';
+        'image2 image1';
         gap: 0px;
-        /*background-color: #616161;*/
-        /* background-color: #0b1d26;*/
         padding: 0px;
         top:400px;
         }
@@ -184,10 +190,9 @@ ngb-rating {
         display: grid;
         margin-left: 0px;
         grid-template-areas:
-          'image1 image1'
-          'image2 image2';
+          'image2 image1'
+          'image2 image1';
         gap: 10px;
-        background: linear-gradient( #0b1d26,#616161);
         /*background-color: #616161;*/
         /* background-color: #0b1d26;*/
         padding: 10px;
@@ -195,3 +200,251 @@ ngb-rating {
 
           }
         }
+
+
+        table.rounded-corners {
+          border-spacing: 0;
+          border-collapse: separate;
+          border-radius: 30px;
+          border: 3px solid #2B2D42;
+         }
+
+         /* Apply a border to the right of all but the last column */
+         table.rounded-corners th:not(:last-child),
+         table.rounded-corners td:not(:last-child) {
+          border-right: 3px solid #2B2D42;
+         }
+
+         /* Apply a border to the bottom of all but the last row */
+         table.rounded-corners>thead>tr:not(:last-child)>th,
+         table.rounded-corners>thead>tr:not(:last-child)>td,
+         table.rounded-corners>tbody>tr:not(:last-child)>th,
+         table.rounded-corners>tbody>tr:not(:last-child)>td,
+         table.rounded-corners>tfoot>tr:not(:last-child)>th,
+         table.rounded-corners>tfoot>tr:not(:last-child)>td,
+         table.rounded-corners>tr:not(:last-child)>td,
+         table.rounded-corners>tr:not(:last-child)>th,
+         table.rounded-corners>thead:not(:last-child),
+         table.rounded-corners>tbody:not(:last-child),
+         table.rounded-corners>tfoot:not(:last-child) {
+          border-bottom: 3px solid #2B2D42;
+         }
+
+         .module-border-wrap {
+          width: 510px;
+          height: 410px;
+          margin-top: 80px;
+          padding: 1rem;
+          position: relative;
+          background: linear-gradient(to right, #2B2D42, #D90429);
+          padding: 3px;
+        }
+        .module-border-wrap2 {
+          width: 410px;
+          height: 55px;
+          margin-top: -50px;
+          position: relative;
+          background: linear-gradient(to right, #2B2D42, #D90429);
+        }
+        .module-border-wrap3 {
+          width: 410px;
+          height: 55px;
+          margin-top: -50px;
+          position: relative;
+          background: linear-gradient(to right, #2B2D42, #D90429);
+        }
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #F21B3F;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 0.5s 0s;
+  -webkit-animation: load 0.5s 0s;
+  -moz-animation: load 0.5s 0s;
+  -o-animation: load 0.5s 0s;
+}
+
+.bar.front::before{
+  background-color: #29BF12;
+}
+.bar.back::before{
+  background-color: #FF9914;
+}
+
+.bar.learning::before{
+  width: calc(28% - 10px);
+}
+.bar.basic::before{
+  width: calc(48% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(68% - 10px);
+}
+.bar.advanced::before{
+  width: calc(88% - 10px);
+}
+.bar.expert::before{
+  width: calc(108% - 10px);
+}
+
+
+.taco tr{
+
+  height: 100px;
+  width: 200px;
+
+}
+.taco th{
+
+  width:100px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+
+}
+
+.item1-ct1 { grid-area: table1;}
+.item2-ct2 { grid-area: table2;}
+
+.grid-containervtables{
+  display: grid;
+  grid-template-areas:
+  'table1 table2';
+  gap: 0px;
+  padding: 0px;
+  width: 600px;
+  top:400px;
+  }
+
+.item1-images1 { grid-area: images;}
+.item2-text1 { grid-area: textdes;}
+.item2-table1 { grid-area: tableven;}
+
+.grid-containervstart{
+  display: grid;
+  grid-template-areas:
+  'images textdes tableven';
+  gap: 0px;
+  padding: 0px;
+  width: 1100px;
+  margin-top: 200px;
+  margin-left: 20px;
+  }@media only screen and (max-width: 800px) {
+    .grid-containervstart {
+      display: grid;
+      grid-template-areas:
+      'images'
+      'textdes'
+      'tableven';
+      gap: 0px;
+      padding: 0px;
+      width: 1100px;
+      margin-top: 200px;
+      }
+    }
+
+.tablestart{
+
+  width:300px;
+  margin-left: 10px;
+
+}@media only screen and (max-width: 800px) {
+  .tablestart {
+
+    width:43%;
+    margin-left: 5px;
+
+    }
+  }
+
+.boxdesc{
+
+  width: 400px;
+  height: 820px;
+  border: 3px solid #8D99AE;
+  margin-left: 80px;
+  margin-right: 10px;
+
+}@media only screen and (max-width: 800px) {
+  .boxdesc {
+
+    width: 43%;
+    margin-left: 5px;
+
+    }
+  }
+
+.imagexp{
+
+  width: 500px;
+  margin-left: 10px;
+
+}@media only screen and (max-width: 800px) {
+  .imagexp {
+
+    width: 43%;
+    margin-left: 5px;
+
+    }
+  }
+
+.mainimg{
+
+  width: 500px;
+  height: 600px;
+
+}@media only screen and (max-width: 800px) {
+  .mainimg {
+
+    width: 450px;
+
+    }
+  }
+
+  .circular--portrait {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .circular--portrait img {
+    width: 300%;
+    height: 300%;
+    margin-left: -70px;
+    margin-top: -60px;
+  }

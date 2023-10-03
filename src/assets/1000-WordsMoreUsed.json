@@ -1,0 +1,406 @@
+[
+ {
+  "English": "adult",
+  "Espanol": "adulto"
+ },
+ {
+  "English": "affect",
+  "Espanol": "afectar"
+ },
+ {
+  "English": "apply",
+  "Espanol": "aplicar"
+ },
+ {
+  "English": "avoid",
+  "Espanol": "evitar"
+ },
+ {
+  "English": "ball",
+  "Espanol": "pelota"
+ },
+ {
+  "English": "bar",
+  "Espanol": "bar(lugar)"
+ },
+ {
+  "English": "base",
+  "Espanol": "base"
+ },
+ {
+  "English": "beautiful",
+  "Espanol": "hermoso"
+ },
+ {
+  "English": "best",
+  "Espanol": "mejor"
+ },
+ {
+  "English": "bit",
+  "Espanol": "poco"
+ },
+ {
+  "English": "camera",
+  "Espanol": "cámara"
+ },
+ {
+  "English": "care",
+  "Espanol": "cuidado"
+ },
+ {
+  "English": "chair",
+  "Espanol": "silla"
+ },
+ {
+  "English": "challenge",
+  "Espanol": "desafío"
+ },
+ {
+  "English": "charge",
+  "Espanol": "cargar"
+ },
+ {
+  "English": "close",
+  "Espanol": "cerca"
+ },
+ {
+  "English": "condidate",
+  "Espanol": "candidato"
+ },
+ {
+  "English": "conference",
+  "Espanol": "conferencia"
+ },
+ {
+  "English": "contain",
+  "Espanol": "contener"
+ },
+ {
+  "English": "control",
+  "Espanol": "control"
+ },
+ {
+  "English": "cultural",
+  "Espanol": "cultural"
+ },
+ {
+  "English": "deep",
+  "Espanol": "profundo"
+ },
+ {
+  "English": "democrat",
+  "Espanol": "demócrata"
+ },
+ {
+  "English": "detail",
+  "Espanol": "detalle"
+ },
+ {
+  "English": "direction",
+  "Espanol": "dirección"
+ },
+ {
+  "English": "discover",
+  "Espanol": "descubrir"
+ },
+ {
+  "English": "dream",
+  "Espanol": "sueño"
+ },
+ {
+  "English": "edge",
+  "Espanol": "borde"
+ },
+ {
+  "English": "employee",
+  "Espanol": "empleado"
+ },
+ {
+  "English": "evening",
+  "Espanol": "noche"
+ },
+ {
+  "English": "expert",
+  "Espanol": "experto"
+ },
+ {
+  "English": "far",
+  "Espanol": "lejos"
+ },
+ {
+  "English": "fear",
+  "Espanol": "miedo"
+ },
+ {
+  "English": "finish",
+  "Espanol": "finalizar"
+ },
+ {
+  "English": "firm",
+  "Espanol": "firme"
+ },
+ {
+  "English": "fish",
+  "Espanol": "pez"
+ },
+ {
+  "English": "fly",
+  "Espanol": "volar"
+ },
+ {
+  "English": "head",
+  "Espanol": "cabeza"
+ },
+ {
+  "English": "huge",
+  "Espanol": "enorme"
+ },
+ {
+  "English": "imagine",
+  "Espanol": "imaginar"
+ },
+ {
+  "English": "impact",
+  "Espanol": "impacto"
+ },
+ {
+  "English": "improve",
+  "Espanol": "mejorar"
+ },
+ {
+  "English": "individual",
+  "Espanol": "individual"
+ },
+ {
+  "English": "inside",
+  "Espanol": "adentro"
+ },
+ {
+  "English": "instead",
+  "Espanol": "en cambio"
+ },
+ {
+  "English": "institution",
+  "Espanol": "institución"
+ },
+ {
+  "English": "interview",
+  "Espanol": "entrevista"
+ },
+ {
+  "English": "maintain",
+  "Espanol": "mantener"
+ },
+ {
+  "English": "manage",
+  "Espanol": "administrar"
+ },
+ {
+  "English": "management",
+  "Espanol": "gestión"
+ },
+ {
+  "English": "measure",
+  "Espanol": "medida"
+ },
+ {
+  "English": "mention",
+  "Espanol": "mencionar"
+ },
+ {
+  "English": "middle",
+  "Espanol": "medio"
+ },
+ {
+  "English": "necessary",
+  "Espanol": "necesario"
+ },
+ {
+  "English": "nice",
+  "Espanol": "lindo"
+ },
+ {
+  "English": "no",
+  "Espanol": "No"
+ },
+ {
+  "English": "onto",
+  "Espanol": "sobre"
+ },
+ {
+  "English": "pain",
+  "Espanol": "dolor"
+ },
+ {
+  "English": "particular",
+  "Espanol": "particular"
+ },
+ {
+  "English": "past",
+  "Espanol": "pasado"
+ },
+ {
+  "English": "peace",
+  "Espanol": "paz"
+ },
+ {
+  "English": "perform",
+  "Espanol": "llevar a cabo"
+ },
+ {
+  "English": "play",
+  "Espanol": "jugar"
+ },
+ {
+  "English": "politics",
+  "Espanol": "política"
+ },
+ {
+  "English": "popular",
+  "Espanol": "popular"
+ },
+ {
+  "English": "production",
+  "Espanol": "producción"
+ },
+ {
+  "English": "property",
+  "Espanol": "propiedad"
+ },
+ {
+  "English": "radio",
+  "Espanol": "radio"
+ },
+ {
+  "English": "range",
+  "Espanol": "rango"
+ },
+ {
+  "English": "rather",
+  "Espanol": "bastante"
+ },
+ {
+  "English": "respond",
+  "Espanol": "responder"
+ },
+ {
+  "English": "reveal",
+  "Espanol": "revelar"
+ },
+ {
+  "English": "sea",
+  "Espanol": "mar"
+ },
+ {
+  "English": "shake",
+  "Espanol": "agitar"
+ },
+ {
+  "English": "shoulder",
+  "Espanol": "hombro"
+ },
+ {
+  "English": "specific",
+  "Espanol": "específico"
+ },
+ {
+  "English": "spring",
+  "Espanol": "primavera"
+ },
+ {
+  "English": "statement",
+  "Espanol": "declaración"
+ },
+ {
+  "English": "structure",
+  "Espanol": "estructura"
+ },
+ {
+  "English": "stuff",
+  "Espanol": "cosa"
+ },
+ {
+  "English": "style",
+  "Espanol": "estilo"
+ },
+ {
+  "English": "suddenly",
+  "Espanol": "de repente"
+ },
+ {
+  "English": "talk",
+  "Espanol": "hablar"
+ },
+ {
+  "English": "that",
+  "Espanol": "eso"
+ },
+ {
+  "English": "theory",
+  "Espanol": "teoría"
+ },
+ {
+  "English": "throughout",
+  "Espanol": "a lo largo de"
+ },
+ {
+  "English": "toninght",
+  "Espanol": "tono"
+ },
+ {
+  "English": "top",
+  "Espanol": "arriba"
+ },
+ {
+  "English": "traditional",
+  "Espanol": "tradicional"
+ },
+ {
+  "English": "treat",
+  "Espanol": "tratar"
+ },
+ {
+  "English": "trial",
+  "Espanol": "ensayo"
+ },
+ {
+  "English": "trip",
+  "Espanol": "viaje"
+ },
+ {
+  "English": "trouble",
+  "Espanol": "problema"
+ },
+ {
+  "English": "unit",
+  "Espanol": "unidad"
+ },
+ {
+  "English": "visit",
+  "Espanol": "visita"
+ },
+ {
+  "English": "weapon",
+  "Espanol": "arma"
+ },
+ {
+  "English": "weight",
+  "Espanol": "peso"
+ },
+ {
+  "English": "wide",
+  "Espanol": "ancho"
+ },
+ {
+  "English": "worry",
+  "Espanol": "preocuparse"
+ },
+ {
+  "English": "writer",
+  "Espanol": "escritor"
+ },
+ {
+  "English": "yourself",
+  "Espanol": "tú mismo"
+ }
+]

@@ -1,4 +1,8 @@
+
+
+
 :root {
+
 --greyback:radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 --redback:linear-gradient(90deg, rgb(186, 16, 27) 0%, rgb(8, 8, 8) 100%);
 --red90back: linear-gradient(183deg, rgb(186, 16, 27) 0%, rgb(8, 8, 8) 100%);
@@ -14,3 +18,9 @@
 
 }
 
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

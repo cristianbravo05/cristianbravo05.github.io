@@ -1,0 +1,602 @@
+[
+ {
+  "verbo": "refuse",
+  "pasado": "refused",
+  "participio": "refused",
+  "espanol": "rechazar"
+ },
+ {
+  "verbo": "regard",
+  "pasado": "regarded",
+  "participio": "regarded",
+  "espanol": "respecto"
+ },
+ {
+  "verbo": "reject",
+  "pasado": "rejected",
+  "participio": "rejected",
+  "espanol": "rechazar"
+ },
+ {
+  "verbo": "relate",
+  "pasado": "related",
+  "participio": "related",
+  "espanol": "relatar"
+ },
+ {
+  "verbo": "release",
+  "pasado": "released",
+  "participio": "released",
+  "espanol": "liberar"
+ },
+ {
+  "verbo": "rely",
+  "pasado": "relied",
+  "participio": "relied",
+  "espanol": "confiar"
+ },
+ {
+  "verbo": "remain",
+  "pasado": "remained",
+  "participio": "remained",
+  "espanol": "permanecer"
+ },
+ {
+  "verbo": "remember",
+  "pasado": "remembered",
+  "participio": "remembered",
+  "espanol": "recordar"
+ },
+ {
+  "verbo": "remind",
+  "pasado": "reminded",
+  "participio": "reminded",
+  "espanol": "recordar"
+ },
+ {
+  "verbo": "remove",
+  "pasado": "removed",
+  "participio": "removed",
+  "espanol": "eliminar"
+ },
+ {
+  "verbo": "repeat",
+  "pasado": "repeated",
+  "participio": "repeated",
+  "espanol": "repetir"
+ },
+ {
+  "verbo": "replace",
+  "pasado": "replaced",
+  "participio": "replaced",
+  "espanol": "reemplazar"
+ },
+ {
+  "verbo": "reply",
+  "pasado": "replied",
+  "participio": "replied",
+  "espanol": "responder"
+ },
+ {
+  "verbo": "report",
+  "pasado": "reported",
+  "participio": "reported",
+  "espanol": "informe"
+ },
+ {
+  "verbo": "represent",
+  "pasado": "represented",
+  "participio": "represented",
+  "espanol": "representar"
+ },
+ {
+  "verbo": "require",
+  "pasado": "required",
+  "participio": "required",
+  "espanol": "requerir"
+ },
+ {
+  "verbo": "Reset",
+  "pasado": "Reset",
+  "participio": "Reset",
+  "espanol": "Restaurar"
+ },
+ {
+  "verbo": "resolve",
+  "pasado": "resolved",
+  "participio": "resolved",
+  "espanol": "resolver"
+ },
+ {
+  "verbo": "respond",
+  "pasado": "responded",
+  "participio": "responded",
+  "espanol": "responder"
+ },
+ {
+  "verbo": "rest",
+  "pasado": "rested",
+  "participio": "rested",
+  "espanol": "descansar"
+ },
+ {
+  "verbo": "result",
+  "pasado": "resulted",
+  "participio": "resulted",
+  "espanol": "resultado"
+ },
+ {
+  "verbo": "retire",
+  "pasado": "retired",
+  "participio": "retired",
+  "espanol": "jubilarse"
+ },
+ {
+  "verbo": "return",
+  "pasado": "returned",
+  "participio": "returned",
+  "espanol": "devolver"
+ },
+ {
+  "verbo": "reveal",
+  "pasado": "revealed",
+  "participio": "revealed",
+  "espanol": "revelar"
+ },
+ {
+  "verbo": "review",
+  "pasado": "reviewed",
+  "participio": "reviewed",
+  "espanol": "revisar"
+ },
+ {
+  "verbo": "Rewind",
+  "pasado": "Rewound",
+  "participio": "Rewound",
+  "espanol": "Rebobinar"
+ },
+ {
+  "verbo": "ride",
+  "pasado": "rode",
+  "participio": "ridden",
+  "espanol": "conducir"
+ },
+ {
+  "verbo": "ring",
+  "pasado": "rang",
+  "participio": "rung",
+  "espanol": "anillo"
+ },
+ {
+  "verbo": "rise",
+  "pasado": "rose",
+  "participio": "risen",
+  "espanol": "elevar"
+ },
+ {
+  "verbo": "roll",
+  "pasado": "rolled",
+  "participio": "rolled",
+  "espanol": "rollo"
+ },
+ {
+  "verbo": "rule",
+  "pasado": "ruled",
+  "participio": "ruled",
+  "espanol": "regla"
+ },
+ {
+  "verbo": "run",
+  "pasado": "ran",
+  "participio": "run",
+  "espanol": "correr"
+ },
+ {
+  "verbo": "rush",
+  "pasado": "rushed",
+  "participio": "rushed",
+  "espanol": "correr"
+ },
+ {
+  "verbo": "save",
+  "pasado": "saved",
+  "participio": "saved",
+  "espanol": "ahorrar"
+ },
+ {
+  "verbo": "say",
+  "pasado": "Said",
+  "participio": "Said",
+  "espanol": "decir"
+ },
+ {
+  "verbo": "score",
+  "pasado": "scored",
+  "participio": "scored",
+  "espanol": "puntaje"
+ },
+ {
+  "verbo": "scream",
+  "pasado": "screamed",
+  "participio": "screamed",
+  "espanol": "gritar"
+ },
+ {
+  "verbo": "search",
+  "pasado": "searched",
+  "participio": "searched",
+  "espanol": "buscar"
+ },
+ {
+  "verbo": "see",
+  "pasado": "saw",
+  "participio": "seen",
+  "espanol": "ver"
+ },
+ {
+  "verbo": "seek",
+  "pasado": "sought",
+  "participio": "sought",
+  "espanol": "buscar"
+ },
+ {
+  "verbo": "seem",
+  "pasado": "seemed",
+  "participio": "seemed",
+  "espanol": "parecer"
+ },
+ {
+  "verbo": "select",
+  "pasado": "selected",
+  "participio": "selected",
+  "espanol": "seleccionar"
+ },
+ {
+  "verbo": "sell",
+  "pasado": "sold",
+  "participio": "sold",
+  "espanol": "vender"
+ },
+ {
+  "verbo": "send",
+  "pasado": "sent",
+  "participio": "sent",
+  "espanol": "enviar"
+ },
+ {
+  "verbo": "separate",
+  "pasado": "separated",
+  "participio": "separated",
+  "espanol": "separado"
+ },
+ {
+  "verbo": "serve",
+  "pasado": "served",
+  "participio": "served",
+  "espanol": "atender"
+ },
+ {
+  "verbo": "set",
+  "pasado": "set",
+  "participio": "set",
+  "espanol": "colocar"
+ },
+ {
+  "verbo": "settle",
+  "pasado": "settled",
+  "participio": "settled",
+  "espanol": "asentarse"
+ },
+ {
+  "verbo": "Sew",
+  "pasado": "Sewed",
+  "participio": "Sewn",
+  "espanol": "Coser"
+ },
+ {
+  "verbo": "shake",
+  "pasado": "shook",
+  "participio": "shaken",
+  "espanol": "agitar"
+ },
+ {
+  "verbo": "shall",
+  "pasado": "should",
+  "participio": "should",
+  "espanol": "deberá"
+ },
+ {
+  "verbo": "share",
+  "pasado": "shared",
+  "participio": "shared",
+  "espanol": "compartir"
+ },
+ {
+  "verbo": "Shave",
+  "pasado": "Shaved",
+  "participio": "Shaven",
+  "espanol": "Afeitarse"
+ },
+ {
+  "verbo": "Shear",
+  "pasado": "Sheared",
+  "participio": "shorn",
+  "espanol": "Esquilar"
+ },
+ {
+  "verbo": "shift",
+  "pasado": "shifted",
+  "participio": "shifted",
+  "espanol": "cambio"
+ },
+ {
+  "verbo": "Shine",
+  "pasado": "Shone",
+  "participio": "Shone",
+  "espanol": "Brillar"
+ },
+ {
+  "verbo": "shoot",
+  "pasado": "shot",
+  "participio": "shot",
+  "espanol": "disparar"
+ },
+ {
+  "verbo": "should",
+  "pasado": " should",
+  "participio": " should",
+  "espanol": "debería"
+ },
+ {
+  "verbo": "shout",
+  "pasado": "shouted",
+  "participio": "shouted",
+  "espanol": "gritar"
+ },
+ {
+  "verbo": "show",
+  "pasado": "showed",
+  "participio": "shown",
+  "espanol": "espectáculo"
+ },
+ {
+  "verbo": "Shrink",
+  "pasado": "Shrank",
+  "participio": "Shrunk",
+  "espanol": "Encoger"
+ },
+ {
+  "verbo": "shut",
+  "pasado": "shut",
+  "participio": "shut",
+  "espanol": "cerrar"
+ },
+ {
+  "verbo": "sign",
+  "pasado": "signed",
+  "participio": "signed",
+  "espanol": "firmar"
+ },
+ {
+  "verbo": "sing",
+  "pasado": "sang",
+  "participio": "sung",
+  "espanol": "cantar"
+ },
+ {
+  "verbo": "Sink",
+  "pasado": "Sank",
+  "participio": "Sunk",
+  "espanol": "Hundir"
+ },
+ {
+  "verbo": "sit",
+  "pasado": "sat",
+  "participio": "sat",
+  "espanol": "sentarse"
+ },
+ {
+  "verbo": "sleep",
+  "pasado": "slept",
+  "participio": "slept",
+  "espanol": "dormir"
+ },
+ {
+  "verbo": "slide",
+  "pasado": "slid",
+  "participio": "slid",
+  "espanol": "deslizar"
+ },
+ {
+  "verbo": "slip",
+  "pasado": "slipped",
+  "participio": "slipped",
+  "espanol": "deslizar"
+ },
+ {
+  "verbo": "slow",
+  "pasado": "slowed",
+  "participio": "slowed",
+  "espanol": "lento"
+ },
+ {
+  "verbo": "Smell",
+  "pasado": "Smelt",
+  "participio": "Smelt",
+  "espanol": "Oler"
+ },
+ {
+  "verbo": "smile",
+  "pasado": "smiled",
+  "participio": "smiled",
+  "espanol": "sonrisa"
+ },
+ {
+  "verbo": "solve",
+  "pasado": "solved",
+  "participio": "solved",
+  "espanol": "resolver"
+ },
+ {
+  "verbo": "sound",
+  "pasado": "sounded",
+  "participio": "sounded",
+  "espanol": "sonido"
+ },
+ {
+  "verbo": "Sow",
+  "pasado": "Sowed",
+  "participio": "Sown",
+  "espanol": "Sembrar"
+ },
+ {
+  "verbo": "speak",
+  "pasado": "spoke",
+  "participio": "spoken",
+  "espanol": "hablar"
+ },
+ {
+  "verbo": "Speed",
+  "pasado": "Sped",
+  "participio": "Sped",
+  "espanol": "Acelerar"
+ },
+ {
+  "verbo": "Spell",
+  "pasado": "Spelt",
+  "participio": "Spelt",
+  "espanol": "Deletrear"
+ },
+ {
+  "verbo": "spend",
+  "pasado": "spent",
+  "participio": "spent",
+  "espanol": "gastar"
+ },
+ {
+  "verbo": "Spill",
+  "pasado": "Spilt",
+  "participio": "Spilt",
+  "espanol": "Derramar"
+ },
+ {
+  "verbo": "Spin",
+  "pasado": "Spun",
+  "participio": "Spun",
+  "espanol": "Girar"
+ },
+ {
+  "verbo": "Spit",
+  "pasado": "Spit",
+  "participio": "Spit",
+  "espanol": "Escupir"
+ },
+ {
+  "verbo": "Split",
+  "pasado": "Split",
+  "participio": "Split",
+  "espanol": "Partir"
+ },
+ {
+  "verbo": "Spoil",
+  "pasado": "Spoilt",
+  "participio": "Spoilt",
+  "espanol": "Estropear"
+ },
+ {
+  "verbo": "spread",
+  "pasado": "spread",
+  "participio": "spread",
+  "espanol": "desparramar"
+ },
+ {
+  "verbo": "stand",
+  "pasado": "stood",
+  "participio": "stood",
+  "espanol": "pararse"
+ },
+ {
+  "verbo": "stare",
+  "pasado": "stared",
+  "participio": "stared",
+  "espanol": "mirar fijamente"
+ },
+ {
+  "verbo": "start",
+  "pasado": "started",
+  "participio": "started",
+  "espanol": "comenzar"
+ },
+ {
+  "verbo": "state",
+  "pasado": "stated",
+  "participio": "stated",
+  "espanol": "estado"
+ },
+ {
+  "verbo": "stay",
+  "pasado": "stayed",
+  "participio": "stayed",
+  "espanol": "permanecer"
+ },
+ {
+  "verbo": "steal",
+  "pasado": "stole",
+  "participio": "stolen",
+  "espanol": "robar"
+ },
+ {
+  "verbo": "step",
+  "pasado": "stepped",
+  "participio": "stepped",
+  "espanol": "paso"
+ },
+ {
+  "verbo": "stick",
+  "pasado": "stuck",
+  "participio": "stuck",
+  "espanol": "palo"
+ },
+ {
+  "verbo": "Stink",
+  "pasado": "Stank",
+  "participio": "Stunk",
+  "espanol": "Apestar"
+ },
+ {
+  "verbo": "stir",
+  "pasado": "stirde",
+  "participio": "stired",
+  "espanol": "remover"
+ },
+ {
+  "verbo": "stop",
+  "pasado": "stopped",
+  "participio": "stopped",
+  "espanol": "detener"
+ },
+ {
+  "verbo": "stretch",
+  "pasado": "stretched",
+  "participio": "stretched",
+  "espanol": "estirar"
+ },
+ {
+  "verbo": "Strew",
+  "pasado": "Strewed",
+  "participio": "Strewn",
+  "espanol": "Esparcir"
+ },
+ {
+  "verbo": "strike",
+  "pasado": "struck",
+  "participio": "struck",
+  "espanol": "huelga"
+ },
+ {
+  "verbo": "struggle",
+  "pasado": "struggled",
+  "participio": "struggled",
+  "espanol": "lucha"
+ }
+]

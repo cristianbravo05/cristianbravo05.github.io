@@ -354,19 +354,7 @@ body{
     left: 0;
     transition: background .3s cubic-bezier(.33,.66,.66,1);
   }
-  .gradient-overlay{
-    /* bg-gradient: */
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.00) 0%, rgba(0,0,0,.6) 21%);
-    background-image: -moz-linear-gradient(rgba(0,0,0,0.00) 0%, rgba(0,0,0,.6) 21%);
-    background-image: -o-linear-gradient(rgba(0,0,0,0.00) 0%, rgba(0,0,0,.6) 21%);
-    background-image: linear-gradient(rgba(0,0,0,0.00) 0%, rgba(0,0,0,.6) 21%);
-    width: 350px;
-    height: 500px;
-    position: absolute;
-    top: 350px;
-    left: 0;
-    z-index: 15;
-  }
+
 }
 
 /* CSS */
